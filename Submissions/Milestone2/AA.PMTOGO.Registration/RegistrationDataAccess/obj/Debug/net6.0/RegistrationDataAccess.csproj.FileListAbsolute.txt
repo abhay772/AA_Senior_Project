@@ -1,0 +1,12 @@
+D:\Program Files (x86)\source\repos\AA.PMTOGO.Registration\RegistrationDataAccess\bin\Debug\net6.0\RegistrationDataAccess.deps.json
+D:\Program Files (x86)\source\repos\AA.PMTOGO.Registration\RegistrationDataAccess\bin\Debug\net6.0\RegistrationDataAccess.dll
+D:\Program Files (x86)\source\repos\AA.PMTOGO.Registration\RegistrationDataAccess\bin\Debug\net6.0\RegistrationDataAccess.pdb
+D:\Program Files (x86)\source\repos\AA.PMTOGO.Registration\RegistrationDataAccess\obj\Debug\net6.0\RegistrationDataAccess.csproj.AssemblyReference.cache
+D:\Program Files (x86)\source\repos\AA.PMTOGO.Registration\RegistrationDataAccess\obj\Debug\net6.0\RegistrationDataAccess.GeneratedMSBuildEditorConfig.editorconfig
+D:\Program Files (x86)\source\repos\AA.PMTOGO.Registration\RegistrationDataAccess\obj\Debug\net6.0\RegistrationDataAccess.AssemblyInfoInputs.cache
+D:\Program Files (x86)\source\repos\AA.PMTOGO.Registration\RegistrationDataAccess\obj\Debug\net6.0\RegistrationDataAccess.AssemblyInfo.cs
+D:\Program Files (x86)\source\repos\AA.PMTOGO.Registration\RegistrationDataAccess\obj\Debug\net6.0\RegistrationDataAccess.csproj.CoreCompileInputs.cache
+D:\Program Files (x86)\source\repos\AA.PMTOGO.Registration\RegistrationDataAccess\obj\Debug\net6.0\RegistrationDataAccess.dll
+D:\Program Files (x86)\source\repos\AA.PMTOGO.Registration\RegistrationDataAccess\obj\Debug\net6.0\refint\RegistrationDataAccess.dll
+D:\Program Files (x86)\source\repos\AA.PMTOGO.Registration\RegistrationDataAccess\obj\Debug\net6.0\RegistrationDataAccess.pdb
+D:\Program Files (x86)\source\repos\AA.PMTOGO.Registration\RegistrationDataAccess\obj\Debug\net6.0\ref\RegistrationDataAccess.dll
