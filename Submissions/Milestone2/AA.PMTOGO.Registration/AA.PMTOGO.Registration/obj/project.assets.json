@@ -1933,11 +1933,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Program Files (x86)\\source\\repos\\AA.PMTOGO.Registration\\AA.PMTOGO.Registration\\AA.PMTOGO.Registration.csproj",
+      "projectUniqueName": "C:\\Users\\Shiro\\Desktop\\ClassPoop\\Sem10\\CECS491A\\AA_Senior_Project\\Submissions\\Milestone2\\AA.PMTOGO.Registration\\AA.PMTOGO.Registration\\AA.PMTOGO.Registration.csproj",
       "projectName": "AA.PMTOGO.Registration",
-      "projectPath": "D:\\Program Files (x86)\\source\\repos\\AA.PMTOGO.Registration\\AA.PMTOGO.Registration\\AA.PMTOGO.Registration.csproj",
+      "projectPath": "C:\\Users\\Shiro\\Desktop\\ClassPoop\\Sem10\\CECS491A\\AA_Senior_Project\\Submissions\\Milestone2\\AA.PMTOGO.Registration\\AA.PMTOGO.Registration\\AA.PMTOGO.Registration.csproj",
       "packagesPath": "C:\\Users\\Shiro\\.nuget\\packages\\",
-      "outputPath": "D:\\Program Files (x86)\\source\\repos\\AA.PMTOGO.Registration\\AA.PMTOGO.Registration\\obj\\",
+      "outputPath": "C:\\Users\\Shiro\\Desktop\\ClassPoop\\Sem10\\CECS491A\\AA_Senior_Project\\Submissions\\Milestone2\\AA.PMTOGO.Registration\\AA.PMTOGO.Registration\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Shiro\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1954,8 +1954,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\Program Files (x86)\\source\\repos\\AA.PMTOGO.Registration\\RegistrationDataAccess\\RegistrationDataAccess.csproj": {
-              "projectPath": "D:\\Program Files (x86)\\source\\repos\\AA.PMTOGO.Registration\\RegistrationDataAccess\\RegistrationDataAccess.csproj"
+            "C:\\Users\\Shiro\\Desktop\\ClassPoop\\Sem10\\CECS491A\\AA_Senior_Project\\Submissions\\Milestone2\\AA.PMTOGO.Registration\\RegistrationDataAccess\\RegistrationDataAccess.csproj": {
+              "projectPath": "C:\\Users\\Shiro\\Desktop\\ClassPoop\\Sem10\\CECS491A\\AA_Senior_Project\\Submissions\\Milestone2\\AA.PMTOGO.Registration\\RegistrationDataAccess\\RegistrationDataAccess.csproj"
             }
           }
         }

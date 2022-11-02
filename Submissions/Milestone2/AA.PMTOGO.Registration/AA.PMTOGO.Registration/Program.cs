@@ -1,88 +1,83 @@
-﻿using Microsoft.EntityFrameworkCore;
-using RegistrationDataAccess.DataAccess;
+﻿using RegistrationDataAccess.DataAccess;
 using RegistrationDataAccess.Models;
 
-Console.Write("Username:");
-string username = Console.ReadLine();
-
-// TODO: Check if the user exists already
-var foundUser = context.Users.Find(username);
-if (foundUser == null)
+namespace AA.PMTOGO.Registration
 {
-    Console.Write("Email:");
-    string email = Console.ReadLine();
-
-    Console.Write("Password:");
-    string password = Console.ReadLine();
-
-    var usr = new User()
+    public class Program
     {
-        UserName = username,
-        Email = email,
-        Password = password
-    };
-
-    var entityentry = context.Users.Add(usr);
-    context.SaveChanges();
-
-    // TODO: Succesful Log up message
-    Console.WriteLine("You have sucessfully registered.");
-
-//MainMenu();
-
-//void MainMenu()
-//{
-//    using (var context = new UserContext())
-//    {
-//        string menu = "Options:\n(1) Sign Up\n(2)Empty the datastore\n(3) Exit\n";
-
-//        while (true)
-//        {
-//            Console.WriteLine(menu);
-//            Console.Write("Enter you choice:");
+        public static void Main(string[] args)
+        {
+            using (var context = new UserContext())
+            {
+                string menu = "\n\nOptions:\n(1) Sign Up\n(2) Empty the datastore\n(3) Exit\n";
+                bool Continue = true;
+                while (Continue)
+                {
+                    Console.WriteLine(menu);
+                    Console.Write("Enter you choice:");
 
 
-//            switch (Console.ReadLine())
-//            {
+                    switch (Console.ReadLine())
+                    {
 
-//                case "1":
+                        case "1":
+                            Console.Write("Username:");
+                            string username = Console.ReadLine();
 
+                            // TODO: Check if the user exists already
+                            var foundUser = context.Users.Find(username);
 
-//                        return ;
-//                    }
-//                    Console.WriteLine("That username is taken.");
-//                    return ;
+                            if (foundUser == null)
+                            {
+                                Console.Write("Email:");
+                                string email = Console.ReadLine();
 
+                                Console.Write("Password:");
+                                string password = Console.ReadLine();
 
-//                case "2":
+                                var usr = new User()
+                                {
+                                    UserName = username,
+                                    Email = email,
+                                    Password = password
+                                };
 
-//                    EmptyDataStore(context);
+                                var entityentry = context.Users.Add(usr);
+                                var enityentry = context.Users.Add(usr);
+                                context.SaveChanges();
 
-//                    return ;
+                                // TODO: Succesful Log up message
+                                Console.WriteLine("You have sucessfully registered.");
 
-//                case "3":
-//                    break;
-//                    return ;
-//            }
-//        }
+                            }
+                            else
+                            {
+                                Console.WriteLine("That username is taken.");
+                            }
+                            break;
 
-//        int choice = Convert.ToInt32(Console.ReadLine());
+                        case "2":
 
-//        Console.Write("Do you want to sign up:");
-//        string Continue = Console.ReadLine();
+                            EmptyDataStore(context);
 
-//        foreach (var usr in context.Users.ToList())
-//        {
-//            Console.WriteLine("{0}\n{1}\n{2} ",usr.UserName, usr.Email, usr.Password);
-//        }
-//    }
+                            break;
 
-//    void EmptyDataStore(UserContext context)
-//    {
-//        foreach (var usr in context.Users)
-//        {
-//            context.Users.Remove(usr);
-//        }
-//    }
+                        case "3":
+                            Continue = false;
+                            break;
+                    }
+                }
 
-//}
+                void EmptyDataStore(UserContext context)
+                {
+                    foreach (var usr in context.Users)
+                    {
+                        context.Users.Remove(usr);
+                    }
+                }
+
+            }
+
+        }
+    }
+}
