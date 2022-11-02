@@ -23,12 +23,7 @@ namespace RegistrationDataAccess.Migrations
 
             modelBuilder.Entity("RegistrationDataAccess.Models.User", b =>
                 {
-                    b.Property<string>("UserName")
-                        .HasMaxLength(100)
-                        .HasColumnType("varchar(100)");
-
                     b.Property<string>("Email")
-                        .IsRequired()
                         .HasMaxLength(100)
                         .HasColumnType("varchar(100)");
 
@@ -37,7 +32,12 @@ namespace RegistrationDataAccess.Migrations
                         .HasMaxLength(100)
                         .HasColumnType("varchar(100)");
 
-                    b.HasKey("UserName");
+                    b.Property<string>("UserName")
+                        .IsRequired()
+                        .HasMaxLength(100)
+                        .HasColumnType("varchar(100)");
+
+                    b.HasKey("Email");
 
                     b.ToTable("Users");
                 });

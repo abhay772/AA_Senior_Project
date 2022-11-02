@@ -1,88 +1,116 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore.ChangeTracking;
 using RegistrationDataAccess.DataAccess;
 using RegistrationDataAccess.Models;
+using System.Text.RegularExpressions;
 
-Console.Write("Username:");
-string username = Console.ReadLine();
+namespace AA.PMTOGO.Registration;
 
-// TODO: Check if the user exists already
-var foundUser = context.Users.Find(username);
-if (foundUser == null)
+
+public class Program
 {
-    Console.Write("Email:");
-    string email = Console.ReadLine();
 
-    Console.Write("Password:");
-    string password = Console.ReadLine();
-
-    var usr = new User()
+    private static User createUser()
     {
-        UserName = username,
-        Email = email,
-        Password = password
-    };
 
-    var entityentry = context.Users.Add(usr);
-    context.SaveChanges();
+        Console.Write("Email:");
+        string email = Console.ReadLine();
 
-    // TODO: Succesful Log up message
-    Console.WriteLine("You have sucessfully registered.");
+        string username = email;
 
-//MainMenu();
+        string password = null;
+        while (password is null) {
+            Console.Write("Password:");
+            string pass = Console.ReadLine();
+            if (validatePass(pass))
+            {
+                password = pass;
+                break;
+            }
+            
+        }
+        var usr = new User()
+        {
+            UserName = username,
+            Email = email,
+            Password = password,
+        };
+        Console.WriteLine("You have sucessfully registered.");
+        return usr;
 
-//void MainMenu()
-//{
-//    using (var context = new UserContext())
-//    {
-//        string menu = "Options:\n(1) Sign Up\n(2)Empty the datastore\n(3) Exit\n";
+    }
+    public static EntityEntry addUser(User usr)
+    {
+        using(var context = new UserContext())
+        {
+            var ret = context.Users.Add(usr);
+            context.SaveChanges();
+            return ret;
+        }
+    }
+    public static EntityEntry removeUser(User usr)
+    {
+        using (var context = new UserContext())
+        {
+            var ret = context.Users.Remove(usr);
+            context.SaveChanges();
+            return ret;
+        }
+    }
+    public static bool validateUser(User usr)
+    {
 
-//        while (true)
-//        {
-//            Console.WriteLine(menu);
-//            Console.Write("Enter you choice:");
+        using (var context = new UserContext())
+        {
+            var foundEmail = context.Users.Find(usr.Email);
+            if (foundEmail == null)
+            {
+                return true;
+            }
+            Console.WriteLine("That username is taken.");
+            return false;
+        }
+    }
+    public static bool validatePass(string pass)
+    {
+        if (Regex.IsMatch(pass, @"^[a-zA-Z0-9_!@,.\s]+$") is false)
+        {
+            Console.Write("Password id invalid! Try again. \n");
+            return false;
+        }
+        if (pass.Length > 8)
+        {
+            Console.Write("Password id invalid! Try again. \n");
+            return false;
+        }
 
+        
+        return true;
+    }
 
-//            switch (Console.ReadLine())
-//            {
+    public static void Menu()
+    {
+        string menu = "\n\nOptions:\n(1) Sign Up\n(2) Empty the datastore\n(3) Exit\n";
+        bool Continue = true;
+        while (Continue)
+        {
+            Console.WriteLine(menu);
+           // Console.Write("Enter you choice:");
+            switch (Console.ReadLine())
+            {
+                case "1":   //signUp
+                    createUser();
+                    break;
+                case "2":
+                    break;
+                case "3":
+                    Continue = false;
+                    break;
+            }
+        }
+    }
+    public static void Main(string[] args)
+    {
+        Menu();
+    }
+}
 
-//                case "1":
-
-
-//                        return ;
-//                    }
-//                    Console.WriteLine("That username is taken.");
-//                    return ;
-
-
-//                case "2":
-
-//                    EmptyDataStore(context);
-
-//                    return ;
-
-//                case "3":
-//                    break;
-//                    return ;
-//            }
-//        }
-
-//        int choice = Convert.ToInt32(Console.ReadLine());
-
-//        Console.Write("Do you want to sign up:");
-//        string Continue = Console.ReadLine();
-
-//        foreach (var usr in context.Users.ToList())
-//        {
-//            Console.WriteLine("{0}\n{1}\n{2} ",usr.UserName, usr.Email, usr.Password);
-//        }
-//    }
-
-//    void EmptyDataStore(UserContext context)
-//    {
-//        foreach (var usr in context.Users)
-//        {
-//            context.Users.Remove(usr);
-//        }
-//    }
-
-//}

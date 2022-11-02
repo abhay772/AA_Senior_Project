@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Program Files (x86)\\source\\repos\\AA.PMTOGO.Registration\\AA.PMTOGO.Registration\\AA.PMTOGO.Registration.csproj": {}
+    "C:\\Users\\mssie_fu6p4ih\\AA.PMtoGo.Code\\AA_Senior_Project\\Submissions\\Milestone2\\AA.PMTOGO.Registration\\AA.PMTOGO.Registration\\AA.PMTOGO.Registration.csproj": {}
   },
   "projects": {
-    "D:\\Program Files (x86)\\source\\repos\\AA.PMTOGO.Registration\\AA.PMTOGO.Registration\\AA.PMTOGO.Registration.csproj": {
+    "C:\\Users\\mssie_fu6p4ih\\AA.PMtoGo.Code\\AA_Senior_Project\\Submissions\\Milestone2\\AA.PMTOGO.Registration\\AA.PMTOGO.Registration\\AA.PMTOGO.Registration.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Program Files (x86)\\source\\repos\\AA.PMTOGO.Registration\\AA.PMTOGO.Registration\\AA.PMTOGO.Registration.csproj",
+        "projectUniqueName": "C:\\Users\\mssie_fu6p4ih\\AA.PMtoGo.Code\\AA_Senior_Project\\Submissions\\Milestone2\\AA.PMTOGO.Registration\\AA.PMTOGO.Registration\\AA.PMTOGO.Registration.csproj",
         "projectName": "AA.PMTOGO.Registration",
-        "projectPath": "D:\\Program Files (x86)\\source\\repos\\AA.PMTOGO.Registration\\AA.PMTOGO.Registration\\AA.PMTOGO.Registration.csproj",
-        "packagesPath": "C:\\Users\\Shiro\\.nuget\\packages\\",
-        "outputPath": "D:\\Program Files (x86)\\source\\repos\\AA.PMTOGO.Registration\\AA.PMTOGO.Registration\\obj\\",
+        "projectPath": "C:\\Users\\mssie_fu6p4ih\\AA.PMtoGo.Code\\AA_Senior_Project\\Submissions\\Milestone2\\AA.PMTOGO.Registration\\AA.PMTOGO.Registration\\AA.PMTOGO.Registration.csproj",
+        "packagesPath": "C:\\Users\\mssie_fu6p4ih\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mssie_fu6p4ih\\AA.PMtoGo.Code\\AA_Senior_Project\\Submissions\\Milestone2\\AA.PMTOGO.Registration\\AA.PMTOGO.Registration\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Shiro\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\mssie_fu6p4ih\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,8 +28,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\Program Files (x86)\\source\\repos\\AA.PMTOGO.Registration\\RegistrationDataAccess\\RegistrationDataAccess.csproj": {
-                "projectPath": "D:\\Program Files (x86)\\source\\repos\\AA.PMTOGO.Registration\\RegistrationDataAccess\\RegistrationDataAccess.csproj"
+              "C:\\Users\\mssie_fu6p4ih\\AA.PMtoGo.Code\\AA_Senior_Project\\Submissions\\Milestone2\\AA.PMTOGO.Registration\\RegistrationDataAccess\\RegistrationDataAccess.csproj": {
+                "projectPath": "C:\\Users\\mssie_fu6p4ih\\AA.PMtoGo.Code\\AA_Senior_Project\\Submissions\\Milestone2\\AA.PMTOGO.Registration\\RegistrationDataAccess\\RegistrationDataAccess.csproj"
               }
             }
           }
@@ -43,6 +43,14 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.10, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -63,17 +71,17 @@
         }
       }
     },
-    "D:\\Program Files (x86)\\source\\repos\\AA.PMTOGO.Registration\\RegistrationDataAccess\\RegistrationDataAccess.csproj": {
+    "C:\\Users\\mssie_fu6p4ih\\AA.PMtoGo.Code\\AA_Senior_Project\\Submissions\\Milestone2\\AA.PMTOGO.Registration\\RegistrationDataAccess\\RegistrationDataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Program Files (x86)\\source\\repos\\AA.PMTOGO.Registration\\RegistrationDataAccess\\RegistrationDataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\mssie_fu6p4ih\\AA.PMtoGo.Code\\AA_Senior_Project\\Submissions\\Milestone2\\AA.PMTOGO.Registration\\RegistrationDataAccess\\RegistrationDataAccess.csproj",
         "projectName": "RegistrationDataAccess",
-        "projectPath": "D:\\Program Files (x86)\\source\\repos\\AA.PMTOGO.Registration\\RegistrationDataAccess\\RegistrationDataAccess.csproj",
-        "packagesPath": "C:\\Users\\Shiro\\.nuget\\packages\\",
-        "outputPath": "D:\\Program Files (x86)\\source\\repos\\AA.PMTOGO.Registration\\RegistrationDataAccess\\obj\\",
+        "projectPath": "C:\\Users\\mssie_fu6p4ih\\AA.PMtoGo.Code\\AA_Senior_Project\\Submissions\\Milestone2\\AA.PMTOGO.Registration\\RegistrationDataAccess\\RegistrationDataAccess.csproj",
+        "packagesPath": "C:\\Users\\mssie_fu6p4ih\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mssie_fu6p4ih\\AA.PMtoGo.Code\\AA_Senior_Project\\Submissions\\Milestone2\\AA.PMTOGO.Registration\\RegistrationDataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Shiro\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\mssie_fu6p4ih\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -99,7 +107,17 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.10, )"
+            },
             "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
               "version": "[6.0.10, )"
             }
