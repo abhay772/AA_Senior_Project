@@ -11,8 +11,8 @@ using RegistrationDataAccess.DataAccess;
 namespace RegistrationDataAccess.Migrations
 {
     [DbContext(typeof(UserContext))]
-    [Migration("20221031215843_DBChangeVarTypes")]
-    partial class DBChangeVarTypes
+    [Migration("20221102224833_DBSetEmailAsKey")]
+    partial class DBSetEmailAsKey
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -25,12 +25,7 @@ namespace RegistrationDataAccess.Migrations
 
             modelBuilder.Entity("RegistrationDataAccess.Models.User", b =>
                 {
-                    b.Property<string>("UserName")
-                        .HasMaxLength(100)
-                        .HasColumnType("varchar(100)");
-
                     b.Property<string>("Email")
-                        .IsRequired()
                         .HasMaxLength(100)
                         .HasColumnType("varchar(100)");
 
@@ -39,7 +34,12 @@ namespace RegistrationDataAccess.Migrations
                         .HasMaxLength(100)
                         .HasColumnType("varchar(100)");
 
-                    b.HasKey("UserName");
+                    b.Property<string>("UserName")
+                        .IsRequired()
+                        .HasMaxLength(100)
+                        .HasColumnType("varchar(100)");
+
+                    b.HasKey("Email");
 
                     b.ToTable("Users");
                 });

@@ -14,11 +14,11 @@ public class User
     [Required]
     [MaxLength(100)]
     [Column(TypeName = "varchar(100)")]
-    public string UserName { get; set; }
+    public string Email { get; set; }
     [Required]
     [MaxLength(100)]
     [Column(TypeName = "varchar(100)")]
-    public string Email { get; set; }
+    public string UserName { get; set; }
     [Required]
     [MaxLength(100)]
     [Column(TypeName ="varchar(100)")]
