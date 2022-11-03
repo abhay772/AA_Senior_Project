@@ -1,0 +1,12 @@
+C:\Users\Shiro\Desktop\ClassPoop\Sem10\CECS491A\AA_Senior_Project\Submissions\Milestone2\AA.PMTOGO.Registration\Validation\bin\Debug\net6.0\Validation.deps.json
+C:\Users\Shiro\Desktop\ClassPoop\Sem10\CECS491A\AA_Senior_Project\Submissions\Milestone2\AA.PMTOGO.Registration\Validation\bin\Debug\net6.0\Validation.dll
+C:\Users\Shiro\Desktop\ClassPoop\Sem10\CECS491A\AA_Senior_Project\Submissions\Milestone2\AA.PMTOGO.Registration\Validation\bin\Debug\net6.0\Validation.pdb
+C:\Users\Shiro\Desktop\ClassPoop\Sem10\CECS491A\AA_Senior_Project\Submissions\Milestone2\AA.PMTOGO.Registration\Validation\obj\Debug\net6.0\Validation.csproj.AssemblyReference.cache
+C:\Users\Shiro\Desktop\ClassPoop\Sem10\CECS491A\AA_Senior_Project\Submissions\Milestone2\AA.PMTOGO.Registration\Validation\obj\Debug\net6.0\Validation.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Shiro\Desktop\ClassPoop\Sem10\CECS491A\AA_Senior_Project\Submissions\Milestone2\AA.PMTOGO.Registration\Validation\obj\Debug\net6.0\Validation.AssemblyInfoInputs.cache
+C:\Users\Shiro\Desktop\ClassPoop\Sem10\CECS491A\AA_Senior_Project\Submissions\Milestone2\AA.PMTOGO.Registration\Validation\obj\Debug\net6.0\Validation.AssemblyInfo.cs
+C:\Users\Shiro\Desktop\ClassPoop\Sem10\CECS491A\AA_Senior_Project\Submissions\Milestone2\AA.PMTOGO.Registration\Validation\obj\Debug\net6.0\Validation.csproj.CoreCompileInputs.cache
+C:\Users\Shiro\Desktop\ClassPoop\Sem10\CECS491A\AA_Senior_Project\Submissions\Milestone2\AA.PMTOGO.Registration\Validation\obj\Debug\net6.0\Validation.dll
+C:\Users\Shiro\Desktop\ClassPoop\Sem10\CECS491A\AA_Senior_Project\Submissions\Milestone2\AA.PMTOGO.Registration\Validation\obj\Debug\net6.0\refint\Validation.dll
+C:\Users\Shiro\Desktop\ClassPoop\Sem10\CECS491A\AA_Senior_Project\Submissions\Milestone2\AA.PMTOGO.Registration\Validation\obj\Debug\net6.0\Validation.pdb
+C:\Users\Shiro\Desktop\ClassPoop\Sem10\CECS491A\AA_Senior_Project\Submissions\Milestone2\AA.PMTOGO.Registration\Validation\obj\Debug\net6.0\ref\Validation.dll

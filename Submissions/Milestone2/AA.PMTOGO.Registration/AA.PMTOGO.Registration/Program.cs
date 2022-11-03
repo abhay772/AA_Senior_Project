@@ -16,6 +16,7 @@ public class Program
         string email = Console.ReadLine();
 
         string username = email;
+        Console.WriteLine("Your username is:" + username);
 
         string password = null;
         while (password is null) {
