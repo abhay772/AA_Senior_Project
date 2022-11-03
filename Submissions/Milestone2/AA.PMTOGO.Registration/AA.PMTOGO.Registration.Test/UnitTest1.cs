@@ -38,5 +38,21 @@ namespace AA.PMTOGO.Registration.Test
             Assert.IsNotNull(actual);
             Assert.IsTrue(actual == expect);
         }
+        public void ShouldRespingWithIn5Seconds()
+        {
+            //arrange
+            var user = new User()
+            {
+                Email = "dummy@email.com",
+                UserName = "dummy@email.com",
+                Password = "jade"
+            };
+
+            //act
+
+
+            //assert
+
+        }
     }
 }

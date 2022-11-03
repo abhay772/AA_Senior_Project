@@ -2524,6 +2524,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
+          "Microsoft.EntityFrameworkCore": "6.0.10",
           "RegistrationDataAccess": "1.0.0"
         },
         "compile": {

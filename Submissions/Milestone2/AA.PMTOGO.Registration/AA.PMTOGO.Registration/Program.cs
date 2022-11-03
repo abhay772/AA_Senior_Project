@@ -74,12 +74,12 @@ public class Program
     {
         if (Regex.IsMatch(pass, @"^[a-zA-Z0-9_!@,.\s]+$") is false)
         {
-            Console.Write("Password id invalid! Try again. \n");
+            Console.Write("Password is invalid! Try again. \n");
             return false;
         }
-        if (pass.Length > 8)
+        if (pass.Length < 8)
         {
-            Console.Write("Password id invalid! Try again. \n");
+            Console.Write("Password is invalid! Try again. \n");
             return false;
         }
 
