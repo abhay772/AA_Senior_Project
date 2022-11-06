@@ -78,7 +78,7 @@ public class Program
             Console.Write("Password is invalid! Try again. \n");
             return false;
         }
-        if (pass.Length < 8)
+        if (pass.Length <= 8)
         {
             Console.Write("Password is invalid! Try again. \n");
             return false;
