@@ -4,13 +4,14 @@ using System.Data.SqlClient;
 
 public class LoggingDAO
 {
-    private string _connectionString;
-    private string ConnString { get; init; }
+    private readonly string _connectionString;
+    private readonly SqlDataAdapter _adapter = new SqlDataAdapter();
 
     public LoggingDAO(string connectionString)
     {
         _connectionString = connectionString;
     }
+
 
     public bool ExecuteSQL(string sql)
     {

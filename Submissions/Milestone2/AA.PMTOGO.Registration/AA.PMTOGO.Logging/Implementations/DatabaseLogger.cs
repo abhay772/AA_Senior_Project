@@ -1,6 +1,6 @@
 ﻿using AA.PMTOGO.Logging.Abstractions;
 using Microsoft.Data.SqlClient;
-using SqlDataAccess.Abstractions;
+using AA.PMTOGO.Logging.LoggingDAL.Abstractions;
 using System;
 using System.Collections.Generic;
 using System.Linq;
