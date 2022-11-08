@@ -8242,9 +8242,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Faisal\\Source\\Repos\\AA_Senior_Project\\Submissions\\Milestone2\\AA.PMTOGO.Registration\\AA.PMTOGO.Registration.Test\\AA.PMTOGO.Registration.Test.csproj",
+      "projectUniqueName": "C:\\Users\\Faisal\\source\\repos\\AA_Senior_Project\\Submissions\\Milestone2\\AA.PMTOGO.Registration\\AA.PMTOGO.Registration.Test\\AA.PMTOGO.Registration.Test.csproj",
       "projectName": "AA.PMTOGO.Registration.Test",
-      "projectPath": "C:\\Users\\Faisal\\Source\\Repos\\AA_Senior_Project\\Submissions\\Milestone2\\AA.PMTOGO.Registration\\AA.PMTOGO.Registration.Test\\AA.PMTOGO.Registration.Test.csproj",
+      "projectPath": "C:\\Users\\Faisal\\source\\repos\\AA_Senior_Project\\Submissions\\Milestone2\\AA.PMTOGO.Registration\\AA.PMTOGO.Registration.Test\\AA.PMTOGO.Registration.Test.csproj",
       "packagesPath": "C:\\Users\\Faisal\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Faisal\\Source\\Repos\\AA_Senior_Project\\Submissions\\Milestone2\\AA.PMTOGO.Registration\\AA.PMTOGO.Registration.Test\\obj\\",
       "projectStyle": "PackageReference",
@@ -8263,11 +8263,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Faisal\\Source\\Repos\\AA_Senior_Project\\Submissions\\Milestone2\\AA.PMTOGO.Registration\\AA.PMTOGO.Registration\\AA.PMTOGO.Registration.csproj": {
-              "projectPath": "C:\\Users\\Faisal\\Source\\Repos\\AA_Senior_Project\\Submissions\\Milestone2\\AA.PMTOGO.Registration\\AA.PMTOGO.Registration\\AA.PMTOGO.Registration.csproj"
+            "C:\\Users\\Faisal\\source\\repos\\AA_Senior_Project\\Submissions\\Milestone2\\AA.PMTOGO.Registration\\AA.PMTOGO.Registration\\AA.PMTOGO.Registration.csproj": {
+              "projectPath": "C:\\Users\\Faisal\\source\\repos\\AA_Senior_Project\\Submissions\\Milestone2\\AA.PMTOGO.Registration\\AA.PMTOGO.Registration\\AA.PMTOGO.Registration.csproj"
             },
-            "C:\\Users\\Faisal\\Source\\Repos\\AA_Senior_Project\\Submissions\\Milestone2\\AA.PMTOGO.Registration\\RegistrationDataAccess\\RegistrationDataAccess.csproj": {
-              "projectPath": "C:\\Users\\Faisal\\Source\\Repos\\AA_Senior_Project\\Submissions\\Milestone2\\AA.PMTOGO.Registration\\RegistrationDataAccess\\RegistrationDataAccess.csproj"
+            "C:\\Users\\Faisal\\source\\repos\\AA_Senior_Project\\Submissions\\Milestone2\\AA.PMTOGO.Registration\\RegistrationDataAccess\\RegistrationDataAccess.csproj": {
+              "projectPath": "C:\\Users\\Faisal\\source\\repos\\AA_Senior_Project\\Submissions\\Milestone2\\AA.PMTOGO.Registration\\RegistrationDataAccess\\RegistrationDataAccess.csproj"
             }
           }
         }
