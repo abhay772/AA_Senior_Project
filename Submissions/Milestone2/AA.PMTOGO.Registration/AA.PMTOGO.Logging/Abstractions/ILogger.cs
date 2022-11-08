@@ -1,10 +1,10 @@
-﻿using MySqlX.XDevAPI.Common;
+﻿using AA.Product.Models;
+using MySqlX.XDevAPI.Common;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
 
 namespace AA.PMTOGO.Logging.Abstractions
 {
@@ -16,13 +16,16 @@ namespace AA.PMTOGO.Logging.Abstractions
     public interface IDataAccessObject
     {
         object LogData(string message);
-        Result ReadData();
-        Result WriteData();
     }
 
     public interface IDataReader
     {
         Result ReadData();
+    }
+
+    public interface IDataWriter 
+    {
+        Result WriteData(string data);
     }
 
 }

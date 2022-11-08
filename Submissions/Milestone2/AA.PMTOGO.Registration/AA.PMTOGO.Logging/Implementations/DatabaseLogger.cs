@@ -1,11 +1,7 @@
 ﻿using AA.PMTOGO.Logging.Abstractions;
+using AA.PMTOGO.Logging.Models;
+using AA.PMTOGO.Logging;
 using Microsoft.Data.SqlClient;
-using AA.PMTOGO.Logging.LoggingDAL.Abstractions;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 
 namespace AA.PMTOGO.Logging.Implementations
