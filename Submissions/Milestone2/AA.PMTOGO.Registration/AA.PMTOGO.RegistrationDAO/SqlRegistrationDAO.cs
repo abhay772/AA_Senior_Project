@@ -1,12 +1,6 @@
 ﻿using AA.PMTOGO.Models;
 using Microsoft.Data.SqlClient;
-using System;
-using System.Collections.Generic;
-using System.Data.Common;
 using System.Data.SqlTypes;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace AA.PMTOGO.RegistrationDAO;
 
@@ -75,14 +69,14 @@ public class SqlRegistrationDAO
                 {
                     if (email.Equals(reader["Email"]))
                     {
-                        result.IsSuccessful = false;
+                        result.IsSuccessful = true;
                         result.ErrorMessage = "Email already exists.";
                         return result;
                     }
                 }
             }
 
-            result.IsSuccessful = true;
+            result.IsSuccessful = false;
             return result;
         }
     }

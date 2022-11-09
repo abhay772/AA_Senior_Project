@@ -1,11 +1,11 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <OutputType>Exe</OutputType>
+    <OutputType>Library</OutputType>
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <StartupObject>AA.PMTOGO.Registration.Program</StartupObject>
+    <StartupObject></StartupObject>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
@@ -26,6 +26,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\AA.PMTOGO.Logging\AA.PMTOGO.Logging.csproj" />
+    <ProjectReference Include="..\AA.PMTOGO.Models\AA.PMTOGO.Models.csproj" />
     <ProjectReference Include="..\AA.PMTOGO.RegistrationDAO\AA.PMTOGO.RegistrationDAO.csproj" />
     <ProjectReference Include="..\Loggin\AA.PMTOGO.LoggerDAO.csproj" />
   </ItemGroup>
