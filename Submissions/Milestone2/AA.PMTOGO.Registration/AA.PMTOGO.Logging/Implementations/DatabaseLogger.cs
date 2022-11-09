@@ -17,11 +17,17 @@ namespace AA.PMTOGO.Logging.Implementations
         public Result Log(string Level, string Event, string message)
         {
             return _dao.LogData(Level, Event, _category, message);
+
+
         }
 
         public async Task<Result> AsyncLog(string Level, string Event, string message)
         {
-            return await _dao.AsyncLogData(Level, Event, _category, message).ConfigureAwait(false);
+            var result = new Result();
+
+            if (Level == null )
+
+            var daoresults = await _dao.AsyncLogData(Level, Event, _category, message).ConfigureAwait(false);
         }
 
         //public async Task<Result> Log(String message)
