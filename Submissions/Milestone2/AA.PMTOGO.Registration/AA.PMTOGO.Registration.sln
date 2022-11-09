@@ -5,15 +5,23 @@ VisualStudioVersion = 17.3.32929.385
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AA.PMTOGO.Registration", "AA.PMTOGO.Registration\AA.PMTOGO.Registration.csproj", "{D6513D7D-C33D-4652-9CC4-AB80DE5C241C}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AA.PMTOGO.Registration.Test", "AA.PMTOGO.Registration.Test\AA.PMTOGO.Registration.Test.csproj", "{8CF15271-EE8B-44CC-826F-8321A78E98AA}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AA.PMTOGO.Logging", "AA.PMTOGO.Logging\AA.PMTOGO.Logging.csproj", "{882C335D-C4A5-40F1-B243-2CBB4BDD0E6E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AA.PMTOGO.Logger", "Loggin\AA.PMTOGO.Logger.csproj", "{0C0D8363-762D-4CC1-BC8E-D97C6470011D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AA.PMTOGO.LoggerDAO", "Loggin\AA.PMTOGO.LoggerDAO.csproj", "{0C0D8363-762D-4CC1-BC8E-D97C6470011D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DAL", "DAL", "{88D631D3-9D9E-4178-B5AB-543393F57697}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AA.PMTOGO.RegistrationDAO", "AA.PMTOGO.RegistrationDAO\AA.PMTOGO.RegistrationDAO.csproj", "{B777762D-AFAD-42C7-8756-40440BACF61A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AA.PMTOGO.RegistrationDAO", "AA.PMTOGO.RegistrationDAO\AA.PMTOGO.RegistrationDAO.csproj", "{B777762D-AFAD-42C7-8756-40440BACF61A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AA.PMTOGO.Models", "AA.PMTOGO.Models\AA.PMTOGO.Models.csproj", "{6827774E-33C9-4DCA-BD76-C8FC580AB45B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Cross-Cutting Concerns", "Cross-Cutting Concerns", "{CBE822DC-95FB-4575-8BF2-0B76851B9192}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AA.PMtoGo.Client", "AlgorithmicAlchemist.PMtoGo.Client\AA.PMtoGo.Client.csproj", "{8F66884F-DF34-48DE-B675-365A1FF94BEA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AA.PMtoGo.Registration.IntegrationTest", "AlgorithmicAlchemist.PMtoGo.Registration.IntegrationTest\AA.PMtoGo.Registration.IntegrationTest.csproj", "{B1EB990F-7465-4E48-9A7E-C1207421D9AC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AA.PMtoGo.Registration.UnitTest", "AlgorithmicAlchemist.PMtoGo.Registration.UnitTest\AA.PMtoGo.Registration.UnitTest.csproj", "{4C751238-7A84-4057-94F9-73C847058F7F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,10 +33,6 @@ Global
 		{D6513D7D-C33D-4652-9CC4-AB80DE5C241C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D6513D7D-C33D-4652-9CC4-AB80DE5C241C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D6513D7D-C33D-4652-9CC4-AB80DE5C241C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{8CF15271-EE8B-44CC-826F-8321A78E98AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8CF15271-EE8B-44CC-826F-8321A78E98AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8CF15271-EE8B-44CC-826F-8321A78E98AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8CF15271-EE8B-44CC-826F-8321A78E98AA}.Release|Any CPU.Build.0 = Release|Any CPU
 		{882C335D-C4A5-40F1-B243-2CBB4BDD0E6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{882C335D-C4A5-40F1-B243-2CBB4BDD0E6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{882C335D-C4A5-40F1-B243-2CBB4BDD0E6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -41,11 +45,29 @@ Global
 		{B777762D-AFAD-42C7-8756-40440BACF61A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B777762D-AFAD-42C7-8756-40440BACF61A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B777762D-AFAD-42C7-8756-40440BACF61A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6827774E-33C9-4DCA-BD76-C8FC580AB45B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6827774E-33C9-4DCA-BD76-C8FC580AB45B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6827774E-33C9-4DCA-BD76-C8FC580AB45B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6827774E-33C9-4DCA-BD76-C8FC580AB45B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F66884F-DF34-48DE-B675-365A1FF94BEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F66884F-DF34-48DE-B675-365A1FF94BEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F66884F-DF34-48DE-B675-365A1FF94BEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F66884F-DF34-48DE-B675-365A1FF94BEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1EB990F-7465-4E48-9A7E-C1207421D9AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1EB990F-7465-4E48-9A7E-C1207421D9AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1EB990F-7465-4E48-9A7E-C1207421D9AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1EB990F-7465-4E48-9A7E-C1207421D9AC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C751238-7A84-4057-94F9-73C847058F7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C751238-7A84-4057-94F9-73C847058F7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C751238-7A84-4057-94F9-73C847058F7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C751238-7A84-4057-94F9-73C847058F7F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
+		{882C335D-C4A5-40F1-B243-2CBB4BDD0E6E} = {CBE822DC-95FB-4575-8BF2-0B76851B9192}
+		{0C0D8363-762D-4CC1-BC8E-D97C6470011D} = {88D631D3-9D9E-4178-B5AB-543393F57697}
 		{B777762D-AFAD-42C7-8756-40440BACF61A} = {88D631D3-9D9E-4178-B5AB-543393F57697}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution

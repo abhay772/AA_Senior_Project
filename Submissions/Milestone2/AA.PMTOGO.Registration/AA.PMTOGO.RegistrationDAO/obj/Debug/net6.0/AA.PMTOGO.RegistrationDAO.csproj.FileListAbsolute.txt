@@ -10,3 +10,6 @@ C:\Users\Shiro\Desktop\ClassPoop\Sem10\CECS491A\AA_Senior_Project\Submissions\Mi
 C:\Users\Shiro\Desktop\ClassPoop\Sem10\CECS491A\AA_Senior_Project\Submissions\Milestone2\AA.PMTOGO.Registration\AA.PMTOGO.RegistrationDAO\obj\Debug\net6.0\refint\AA.PMTOGO.RegistrationDAO.dll
 C:\Users\Shiro\Desktop\ClassPoop\Sem10\CECS491A\AA_Senior_Project\Submissions\Milestone2\AA.PMTOGO.Registration\AA.PMTOGO.RegistrationDAO\obj\Debug\net6.0\AA.PMTOGO.RegistrationDAO.pdb
 C:\Users\Shiro\Desktop\ClassPoop\Sem10\CECS491A\AA_Senior_Project\Submissions\Milestone2\AA.PMTOGO.Registration\AA.PMTOGO.RegistrationDAO\obj\Debug\net6.0\ref\AA.PMTOGO.RegistrationDAO.dll
+C:\Users\Shiro\Desktop\ClassPoop\Sem10\CECS491A\AA_Senior_Project\Submissions\Milestone2\AA.PMTOGO.Registration\AA.PMTOGO.RegistrationDAO\bin\Debug\net6.0\AA.PMTOGO.Models.dll
+C:\Users\Shiro\Desktop\ClassPoop\Sem10\CECS491A\AA_Senior_Project\Submissions\Milestone2\AA.PMTOGO.Registration\AA.PMTOGO.RegistrationDAO\bin\Debug\net6.0\AA.PMTOGO.Models.pdb
+C:\Users\Shiro\Desktop\ClassPoop\Sem10\CECS491A\AA_Senior_Project\Submissions\Milestone2\AA.PMTOGO.Registration\AA.PMTOGO.RegistrationDAO\obj\Debug\net6.0\AA.PMTOGO.RegistrationDAO.csproj.CopyComplete

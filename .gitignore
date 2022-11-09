@@ -71,3 +71,12 @@ Submissions/Milestone2/AA.PMTOGO.Registration/Loggin/bin/Debug/net6.0/AA.PMTOGO.
 Submissions/Milestone2/AA.PMTOGO.Registration/Loggin/bin/Debug/net6.0/AA.PMTOGO.Logger.pdb
 Submissions/Milestone2/AA.PMTOGO.Registration/Loggin/obj/Debug/net6.0/AA.PMTOGO.Logger.dll
 Submissions/Milestone2/AA.PMTOGO.Registration/Loggin/obj/Debug/net6.0/AA.PMTOGO.Logger.pdb
+*.v2
+Submissions/Milestone2/AA.PMTOGO.Registration/.vs/AA.PMTOGO.Registration/v17/.suo
+Submissions/Milestone2/AA.PMTOGO.Registration/.vs/AA.PMTOGO.Registration/v17/.suo
+Submissions/Milestone2/AA.PMTOGO.Registration/.vs/AA.PMTOGO.Registration/v17/.suo
+*.props
+*.targets
+*.cs
+*.editorconfig
+/Submissions/Milestone2/AA.PMTOGO.Registration/AA.PMTOGO.Registration/AlgorithmicAlchemist.PMtoGo.Registration.csproj

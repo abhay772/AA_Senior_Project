@@ -8,3 +8,15 @@ C:\Users\Shiro\Desktop\ClassPoop\Sem10\CECS491A\AA_Senior_Project\Submissions\Mi
 C:\Users\Shiro\Desktop\ClassPoop\Sem10\CECS491A\AA_Senior_Project\Submissions\Milestone2\AA.PMTOGO.Registration\AA.PMTOGO.Logging\obj\Debug\net6.0\AA.PMTOGO.Logging.AssemblyInfoInputs.cache
 C:\Users\Shiro\Desktop\ClassPoop\Sem10\CECS491A\AA_Senior_Project\Submissions\Milestone2\AA.PMTOGO.Registration\AA.PMTOGO.Logging\obj\Debug\net6.0\AA.PMTOGO.Logging.AssemblyInfo.cs
 C:\Users\Shiro\Desktop\ClassPoop\Sem10\CECS491A\AA_Senior_Project\Submissions\Milestone2\AA.PMTOGO.Registration\AA.PMTOGO.Logging\obj\Debug\net6.0\AA.PMTOGO.Logging.csproj.CoreCompileInputs.cache
+C:\Users\Shiro\Desktop\ClassPoop\Sem10\CECS491A\AA_Senior_Project\Submissions\Milestone2\AA.PMTOGO.Registration\AA.PMTOGO.Logging\bin\Debug\net6.0\AA.PMTOGO.Logging.deps.json
+C:\Users\Shiro\Desktop\ClassPoop\Sem10\CECS491A\AA_Senior_Project\Submissions\Milestone2\AA.PMTOGO.Registration\AA.PMTOGO.Logging\bin\Debug\net6.0\AA.PMTOGO.Logging.dll
+C:\Users\Shiro\Desktop\ClassPoop\Sem10\CECS491A\AA_Senior_Project\Submissions\Milestone2\AA.PMTOGO.Registration\AA.PMTOGO.Logging\bin\Debug\net6.0\AA.PMTOGO.Logging.pdb
+C:\Users\Shiro\Desktop\ClassPoop\Sem10\CECS491A\AA_Senior_Project\Submissions\Milestone2\AA.PMTOGO.Registration\AA.PMTOGO.Logging\bin\Debug\net6.0\AA.PMTOGO.LoggerDAO.dll
+C:\Users\Shiro\Desktop\ClassPoop\Sem10\CECS491A\AA_Senior_Project\Submissions\Milestone2\AA.PMTOGO.Registration\AA.PMTOGO.Logging\bin\Debug\net6.0\AA.PMTOGO.Models.dll
+C:\Users\Shiro\Desktop\ClassPoop\Sem10\CECS491A\AA_Senior_Project\Submissions\Milestone2\AA.PMTOGO.Registration\AA.PMTOGO.Logging\bin\Debug\net6.0\AA.PMTOGO.Models.pdb
+C:\Users\Shiro\Desktop\ClassPoop\Sem10\CECS491A\AA_Senior_Project\Submissions\Milestone2\AA.PMTOGO.Registration\AA.PMTOGO.Logging\bin\Debug\net6.0\AA.PMTOGO.LoggerDAO.pdb
+C:\Users\Shiro\Desktop\ClassPoop\Sem10\CECS491A\AA_Senior_Project\Submissions\Milestone2\AA.PMTOGO.Registration\AA.PMTOGO.Logging\obj\Debug\net6.0\AA.PMTOGO.Logging.csproj.CopyComplete
+C:\Users\Shiro\Desktop\ClassPoop\Sem10\CECS491A\AA_Senior_Project\Submissions\Milestone2\AA.PMTOGO.Registration\AA.PMTOGO.Logging\obj\Debug\net6.0\AA.PMTOGO.Logging.dll
+C:\Users\Shiro\Desktop\ClassPoop\Sem10\CECS491A\AA_Senior_Project\Submissions\Milestone2\AA.PMTOGO.Registration\AA.PMTOGO.Logging\obj\Debug\net6.0\refint\AA.PMTOGO.Logging.dll
+C:\Users\Shiro\Desktop\ClassPoop\Sem10\CECS491A\AA_Senior_Project\Submissions\Milestone2\AA.PMTOGO.Registration\AA.PMTOGO.Logging\obj\Debug\net6.0\AA.PMTOGO.Logging.pdb
+C:\Users\Shiro\Desktop\ClassPoop\Sem10\CECS491A\AA_Senior_Project\Submissions\Milestone2\AA.PMTOGO.Registration\AA.PMTOGO.Logging\obj\Debug\net6.0\ref\AA.PMTOGO.Logging.dll

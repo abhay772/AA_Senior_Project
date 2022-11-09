@@ -455,6 +455,16 @@
             "rid": "win"
           }
         }
+      },
+      "AA.PMTOGO.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/AA.PMTOGO.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AA.PMTOGO.Models.dll": {}
+        }
       }
     }
   },
@@ -1275,10 +1285,16 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "AA.PMTOGO.Models/1.0.0": {
+      "type": "project",
+      "path": "../AA.PMTOGO.Models/AA.PMTOGO.Models.csproj",
+      "msbuildProject": "../AA.PMTOGO.Models/AA.PMTOGO.Models.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "AA.PMTOGO.Models >= 1.0.0",
       "Microsoft.Data.SqlClient >= 2.1.4"
     ]
   },
@@ -1288,9 +1304,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Shiro\\Desktop\\ClassPoop\\Sem10\\CECS491A\\AA_Senior_Project\\Submissions\\Milestone2\\AA.PMTOGO.Registration\\Loggin\\AA.PMTOGO.Logger.csproj",
-      "projectName": "AA.PMTOGO.Logger",
-      "projectPath": "C:\\Users\\Shiro\\Desktop\\ClassPoop\\Sem10\\CECS491A\\AA_Senior_Project\\Submissions\\Milestone2\\AA.PMTOGO.Registration\\Loggin\\AA.PMTOGO.Logger.csproj",
+      "projectUniqueName": "C:\\Users\\Shiro\\Desktop\\ClassPoop\\Sem10\\CECS491A\\AA_Senior_Project\\Submissions\\Milestone2\\AA.PMTOGO.Registration\\Loggin\\AA.PMTOGO.LoggerDAO.csproj",
+      "projectName": "AA.PMTOGO.LoggerDAO",
+      "projectPath": "C:\\Users\\Shiro\\Desktop\\ClassPoop\\Sem10\\CECS491A\\AA_Senior_Project\\Submissions\\Milestone2\\AA.PMTOGO.Registration\\Loggin\\AA.PMTOGO.LoggerDAO.csproj",
       "packagesPath": "C:\\Users\\Shiro\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Shiro\\Desktop\\ClassPoop\\Sem10\\CECS491A\\AA_Senior_Project\\Submissions\\Milestone2\\AA.PMTOGO.Registration\\Loggin\\obj\\",
       "projectStyle": "PackageReference",
@@ -1308,7 +1324,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Shiro\\Desktop\\ClassPoop\\Sem10\\CECS491A\\AA_Senior_Project\\Submissions\\Milestone2\\AA.PMTOGO.Registration\\AA.PMTOGO.Models\\AA.PMTOGO.Models.csproj": {
+              "projectPath": "C:\\Users\\Shiro\\Desktop\\ClassPoop\\Sem10\\CECS491A\\AA_Senior_Project\\Submissions\\Milestone2\\AA.PMTOGO.Registration\\AA.PMTOGO.Models\\AA.PMTOGO.Models.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

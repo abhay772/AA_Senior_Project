@@ -1,6 +1,8 @@
-﻿using Microsoft.Data.SqlClient;
+﻿using AA.PMTOGO.Models;
+using Microsoft.Data.SqlClient;
 using System;
 using System.Collections.Generic;
+using System.Data.Common;
 using System.Data.SqlTypes;
 using System.Linq;
 using System.Text;
@@ -17,8 +19,9 @@ public class SqlRegistrationDAO
 		
 	}
 
-	public bool AddUser(string email, string password, SqlDateTime dob)
+	public Result AddUser(string email, string password, SqlDateTime dob)
 	{
+		var result = new Result();	
 		using(var connection = new SqlConnection(_connectionString))
 		{
 			connection.Open();
@@ -33,10 +36,54 @@ public class SqlRegistrationDAO
 
 			var rows = command.ExecuteNonQuery();
 
-			if (rows == 1) return true;
+			if (rows == 1)
+			{
+				result.IsSuccessful = true;
+				return result;
+			}
+
+			else
+			{
+                result.IsSuccessful = false;
+				result.ErrorMessage = "too many rows affected";
+				return result;
+            }
         }
 
-        return false;
+		result.IsSuccessful = false;
+        return result;
 	}
 
+    public Result FindUser(string email)
+    {
+        var result = new Result();
+        using (var connection = new SqlConnection(_connectionString))
+        {
+            connection.Open();
+
+            string sqlQuery = "select * from Users where Email = @email";
+
+            var command = new SqlCommand(sqlQuery, connection);
+
+            command.Parameters.AddWithValue("@email", email);
+
+            var rows = command.ExecuteNonQuery();
+
+            using (SqlDataReader reader = command.ExecuteReader())
+            {
+                while (reader.Read())
+                {
+                    if (email.Equals(reader["Email"]))
+                    {
+                        result.IsSuccessful = false;
+                        result.ErrorMessage = "Email already exists.";
+                        return result;
+                    }
+                }
+            }
+
+            result.IsSuccessful = true;
+            return result;
+        }
+    }
 }

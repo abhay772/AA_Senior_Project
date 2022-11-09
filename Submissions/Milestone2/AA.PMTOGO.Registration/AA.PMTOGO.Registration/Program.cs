@@ -1,6 +1,9 @@
-﻿using AA.PMTOGO.Logger;
+﻿using AA.PMTOGO.LoggerDAO;
+using AA.PMTOGO.Logging.Implementations;
+using AA.PMTOGO.Models;
 using AA.PMTOGO.RegistrationDAO;
 using Microsoft.EntityFrameworkCore.ChangeTracking;
+using System.Data.SqlClient;
 using System.Data.SqlTypes;
 //using RegistrationDataAccess.DataAccess;
 //using RegistrationDataAccess.Models;
@@ -113,10 +116,29 @@ public class Program
     public static void Main(string[] args)
     {
         var usrRegister = new SqlRegistrationDAO();
+        var logr = new DatabaseLogger("registration", new SqlLogger());
+        //logr.Log("info", "general_check", "Testing the Logger");
 
-        usrRegister.AddUser("absolanki772@gmail.com", "trees", new SqlDateTime(1999,06,11));
-        //var logr = new SqlLogger("registration");
-        //logr.LogData("info", "general_check", "Testing the Logger");
+
+        string email = "absolanki772@gmail.com";
+        string password = "trees";
+        var dob = new SqlDateTime(1999, 06, 11);
+
+        try
+        {
+            usrRegister.AddUser(email,password, dob);
+        }
+
+        catch (SqlException e)
+        {
+            if (e.Number == 2627)
+            {
+                Console.WriteLine("Account with following email:{1}, already exists.", email);
+                logr.Log("info", "registration", "Account with following email:{email}, already exists.");
+            }
+        }
+
+
         //Menu();
     }
 }

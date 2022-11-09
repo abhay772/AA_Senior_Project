@@ -11,4 +11,9 @@
     <PackageReference Include="System.Data.SqlClient" Version="4.8.5" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\AA.PMTOGO.Models\AA.PMTOGO.Models.csproj" />
+    <ProjectReference Include="..\Loggin\AA.PMTOGO.LoggerDAO.csproj" />
+  </ItemGroup>
+
 </Project>
