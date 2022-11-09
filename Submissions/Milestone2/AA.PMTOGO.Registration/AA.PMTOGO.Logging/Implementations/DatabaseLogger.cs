@@ -14,14 +14,43 @@ namespace AA.PMTOGO.Logging.Implementations
             _dao = dao;
         }
 
-        public Result Log(string Level, string Event, string message)
+        public Result Log(string Level, string Event, string user,string message)
         {
-            return _dao.LogData(Level, Event, _category, message);
+            return _dao.LogData(Level, Event, _category, user, message);
+
+
         }
 
-        public async Task<Result> AsyncLog(string Level, string Event, string message)
+        public async Task<Result> AsyncLog(string Level, string Event, string user,string message)
         {
-            return await _dao.AsyncLogData(Level, Event, _category, message).ConfigureAwait(false);
+            var result = new Result();
+
+            if (Enum.IsDefined(typeof(LogLevel), Level))
+            {
+
+            }
+
+            if (message == null) 
+            {
+                result.IsSuccessful = false;
+                return result;
+            }
+
+
+
+            var daoResults = await _dao.AsyncLogData(Level, Event, _category, user, message).ConfigureAwait(false);
+
+            if (daoResults.IsSuccessful) 
+            {
+                result.IsSuccessful = true;
+                return result;
+            }
+
+            result.IsSuccessful = false;
+            result.ErrorMessage = daoResults.ErrorMessage;
+
+            return result;
+
         }
 
         //public async Task<Result> Log(String message)
