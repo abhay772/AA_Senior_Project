@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Shiro\\Desktop\\ClassPoop\\Sem10\\CECS491A\\AA_Senior_Project\\Submissions\\Milestone2\\AA.PMTOGO.Registration\\AA.PMTOGO.Logging\\AA.PMTOGO.Logging.csproj": {}
+    "C:\\Users\\fmuha\\Source\\Repos\\AA_Senior_Project\\Submissions\\Milestone2\\AA.PMTOGO.Registration\\AA.PMTOGO.Logging\\AA.PMTOGO.Logging.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Shiro\\Desktop\\ClassPoop\\Sem10\\CECS491A\\AA_Senior_Project\\Submissions\\Milestone2\\AA.PMTOGO.Registration\\AA.PMTOGO.Logging\\AA.PMTOGO.Logging.csproj": {
+    "C:\\Users\\fmuha\\Source\\Repos\\AA_Senior_Project\\Submissions\\Milestone2\\AA.PMTOGO.Registration\\AA.PMTOGO.Logging\\AA.PMTOGO.Logging.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Shiro\\Desktop\\ClassPoop\\Sem10\\CECS491A\\AA_Senior_Project\\Submissions\\Milestone2\\AA.PMTOGO.Registration\\AA.PMTOGO.Logging\\AA.PMTOGO.Logging.csproj",
+        "projectUniqueName": "C:\\Users\\fmuha\\Source\\Repos\\AA_Senior_Project\\Submissions\\Milestone2\\AA.PMTOGO.Registration\\AA.PMTOGO.Logging\\AA.PMTOGO.Logging.csproj",
         "projectName": "AA.PMTOGO.Logging",
-        "projectPath": "C:\\Users\\Shiro\\Desktop\\ClassPoop\\Sem10\\CECS491A\\AA_Senior_Project\\Submissions\\Milestone2\\AA.PMTOGO.Registration\\AA.PMTOGO.Logging\\AA.PMTOGO.Logging.csproj",
-        "packagesPath": "C:\\Users\\Shiro\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Shiro\\Desktop\\ClassPoop\\Sem10\\CECS491A\\AA_Senior_Project\\Submissions\\Milestone2\\AA.PMTOGO.Registration\\AA.PMTOGO.Logging\\obj\\",
+        "projectPath": "C:\\Users\\fmuha\\Source\\Repos\\AA_Senior_Project\\Submissions\\Milestone2\\AA.PMTOGO.Registration\\AA.PMTOGO.Logging\\AA.PMTOGO.Logging.csproj",
+        "packagesPath": "C:\\Users\\fmuha\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\fmuha\\Source\\Repos\\AA_Senior_Project\\Submissions\\Milestone2\\AA.PMTOGO.Registration\\AA.PMTOGO.Logging\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Shiro\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\fmuha\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,11 +28,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Shiro\\Desktop\\ClassPoop\\Sem10\\CECS491A\\AA_Senior_Project\\Submissions\\Milestone2\\AA.PMTOGO.Registration\\AA.PMTOGO.Models\\AA.PMTOGO.Models.csproj": {
-                "projectPath": "C:\\Users\\Shiro\\Desktop\\ClassPoop\\Sem10\\CECS491A\\AA_Senior_Project\\Submissions\\Milestone2\\AA.PMTOGO.Registration\\AA.PMTOGO.Models\\AA.PMTOGO.Models.csproj"
+              "C:\\Users\\fmuha\\Source\\Repos\\AA_Senior_Project\\Submissions\\Milestone2\\AA.PMTOGO.Registration\\AA.PMTOGO.Models\\AA.PMTOGO.Models.csproj": {
+                "projectPath": "C:\\Users\\fmuha\\Source\\Repos\\AA_Senior_Project\\Submissions\\Milestone2\\AA.PMTOGO.Registration\\AA.PMTOGO.Models\\AA.PMTOGO.Models.csproj"
               },
-              "C:\\Users\\Shiro\\Desktop\\ClassPoop\\Sem10\\CECS491A\\AA_Senior_Project\\Submissions\\Milestone2\\AA.PMTOGO.Registration\\Loggin\\AA.PMTOGO.LoggerDAO.csproj": {
-                "projectPath": "C:\\Users\\Shiro\\Desktop\\ClassPoop\\Sem10\\CECS491A\\AA_Senior_Project\\Submissions\\Milestone2\\AA.PMTOGO.Registration\\Loggin\\AA.PMTOGO.LoggerDAO.csproj"
+              "C:\\Users\\fmuha\\Source\\Repos\\AA_Senior_Project\\Submissions\\Milestone2\\AA.PMTOGO.Registration\\Loggin\\AA.PMTOGO.LoggerDAO.csproj": {
+                "projectPath": "C:\\Users\\fmuha\\Source\\Repos\\AA_Senior_Project\\Submissions\\Milestone2\\AA.PMTOGO.Registration\\Loggin\\AA.PMTOGO.LoggerDAO.csproj"
               }
             }
           }
@@ -76,17 +76,17 @@
         }
       }
     },
-    "C:\\Users\\Shiro\\Desktop\\ClassPoop\\Sem10\\CECS491A\\AA_Senior_Project\\Submissions\\Milestone2\\AA.PMTOGO.Registration\\AA.PMTOGO.Models\\AA.PMTOGO.Models.csproj": {
+    "C:\\Users\\fmuha\\Source\\Repos\\AA_Senior_Project\\Submissions\\Milestone2\\AA.PMTOGO.Registration\\AA.PMTOGO.Models\\AA.PMTOGO.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Shiro\\Desktop\\ClassPoop\\Sem10\\CECS491A\\AA_Senior_Project\\Submissions\\Milestone2\\AA.PMTOGO.Registration\\AA.PMTOGO.Models\\AA.PMTOGO.Models.csproj",
+        "projectUniqueName": "C:\\Users\\fmuha\\Source\\Repos\\AA_Senior_Project\\Submissions\\Milestone2\\AA.PMTOGO.Registration\\AA.PMTOGO.Models\\AA.PMTOGO.Models.csproj",
         "projectName": "AA.PMTOGO.Models",
-        "projectPath": "C:\\Users\\Shiro\\Desktop\\ClassPoop\\Sem10\\CECS491A\\AA_Senior_Project\\Submissions\\Milestone2\\AA.PMTOGO.Registration\\AA.PMTOGO.Models\\AA.PMTOGO.Models.csproj",
-        "packagesPath": "C:\\Users\\Shiro\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Shiro\\Desktop\\ClassPoop\\Sem10\\CECS491A\\AA_Senior_Project\\Submissions\\Milestone2\\AA.PMTOGO.Registration\\AA.PMTOGO.Models\\obj\\",
+        "projectPath": "C:\\Users\\fmuha\\Source\\Repos\\AA_Senior_Project\\Submissions\\Milestone2\\AA.PMTOGO.Registration\\AA.PMTOGO.Models\\AA.PMTOGO.Models.csproj",
+        "packagesPath": "C:\\Users\\fmuha\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\fmuha\\Source\\Repos\\AA_Senior_Project\\Submissions\\Milestone2\\AA.PMTOGO.Registration\\AA.PMTOGO.Models\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Shiro\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\fmuha\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -131,17 +131,17 @@
         }
       }
     },
-    "C:\\Users\\Shiro\\Desktop\\ClassPoop\\Sem10\\CECS491A\\AA_Senior_Project\\Submissions\\Milestone2\\AA.PMTOGO.Registration\\Loggin\\AA.PMTOGO.LoggerDAO.csproj": {
+    "C:\\Users\\fmuha\\Source\\Repos\\AA_Senior_Project\\Submissions\\Milestone2\\AA.PMTOGO.Registration\\Loggin\\AA.PMTOGO.LoggerDAO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Shiro\\Desktop\\ClassPoop\\Sem10\\CECS491A\\AA_Senior_Project\\Submissions\\Milestone2\\AA.PMTOGO.Registration\\Loggin\\AA.PMTOGO.LoggerDAO.csproj",
+        "projectUniqueName": "C:\\Users\\fmuha\\Source\\Repos\\AA_Senior_Project\\Submissions\\Milestone2\\AA.PMTOGO.Registration\\Loggin\\AA.PMTOGO.LoggerDAO.csproj",
         "projectName": "AA.PMTOGO.LoggerDAO",
-        "projectPath": "C:\\Users\\Shiro\\Desktop\\ClassPoop\\Sem10\\CECS491A\\AA_Senior_Project\\Submissions\\Milestone2\\AA.PMTOGO.Registration\\Loggin\\AA.PMTOGO.LoggerDAO.csproj",
-        "packagesPath": "C:\\Users\\Shiro\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Shiro\\Desktop\\ClassPoop\\Sem10\\CECS491A\\AA_Senior_Project\\Submissions\\Milestone2\\AA.PMTOGO.Registration\\Loggin\\obj\\",
+        "projectPath": "C:\\Users\\fmuha\\Source\\Repos\\AA_Senior_Project\\Submissions\\Milestone2\\AA.PMTOGO.Registration\\Loggin\\AA.PMTOGO.LoggerDAO.csproj",
+        "packagesPath": "C:\\Users\\fmuha\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\fmuha\\Source\\Repos\\AA_Senior_Project\\Submissions\\Milestone2\\AA.PMTOGO.Registration\\Loggin\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Shiro\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\fmuha\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -155,8 +155,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Shiro\\Desktop\\ClassPoop\\Sem10\\CECS491A\\AA_Senior_Project\\Submissions\\Milestone2\\AA.PMTOGO.Registration\\AA.PMTOGO.Models\\AA.PMTOGO.Models.csproj": {
-                "projectPath": "C:\\Users\\Shiro\\Desktop\\ClassPoop\\Sem10\\CECS491A\\AA_Senior_Project\\Submissions\\Milestone2\\AA.PMTOGO.Registration\\AA.PMTOGO.Models\\AA.PMTOGO.Models.csproj"
+              "C:\\Users\\fmuha\\Source\\Repos\\AA_Senior_Project\\Submissions\\Milestone2\\AA.PMTOGO.Registration\\AA.PMTOGO.Models\\AA.PMTOGO.Models.csproj": {
+                "projectPath": "C:\\Users\\fmuha\\Source\\Repos\\AA_Senior_Project\\Submissions\\Milestone2\\AA.PMTOGO.Registration\\AA.PMTOGO.Models\\AA.PMTOGO.Models.csproj"
               }
             }
           }

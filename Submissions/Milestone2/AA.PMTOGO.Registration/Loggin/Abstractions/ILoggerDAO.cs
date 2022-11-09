@@ -11,5 +11,7 @@ namespace AA.PMTOGO.LoggerDAO.Abstractions;
 public interface ILoggerDAO
 {
     Result LogData(string level, string Event, string category, string message);
+
+    Task<Result> AsyncLogData(string level, string Event, string category, string message);
 }
 

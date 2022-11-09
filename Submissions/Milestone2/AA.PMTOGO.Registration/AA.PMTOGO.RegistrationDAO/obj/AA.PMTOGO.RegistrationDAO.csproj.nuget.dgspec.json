@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Shiro\\Desktop\\ClassPoop\\Sem10\\CECS491A\\AA_Senior_Project\\Submissions\\Milestone2\\AA.PMTOGO.Registration\\AA.PMTOGO.RegistrationDAO\\AA.PMTOGO.RegistrationDAO.csproj": {}
+    "C:\\Users\\fmuha\\Source\\Repos\\AA_Senior_Project\\Submissions\\Milestone2\\AA.PMTOGO.Registration\\AA.PMTOGO.RegistrationDAO\\AA.PMTOGO.RegistrationDAO.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Shiro\\Desktop\\ClassPoop\\Sem10\\CECS491A\\AA_Senior_Project\\Submissions\\Milestone2\\AA.PMTOGO.Registration\\AA.PMTOGO.RegistrationDAO\\AA.PMTOGO.RegistrationDAO.csproj": {
+    "C:\\Users\\fmuha\\Source\\Repos\\AA_Senior_Project\\Submissions\\Milestone2\\AA.PMTOGO.Registration\\AA.PMTOGO.RegistrationDAO\\AA.PMTOGO.RegistrationDAO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Shiro\\Desktop\\ClassPoop\\Sem10\\CECS491A\\AA_Senior_Project\\Submissions\\Milestone2\\AA.PMTOGO.Registration\\AA.PMTOGO.RegistrationDAO\\AA.PMTOGO.RegistrationDAO.csproj",
+        "projectUniqueName": "C:\\Users\\fmuha\\Source\\Repos\\AA_Senior_Project\\Submissions\\Milestone2\\AA.PMTOGO.Registration\\AA.PMTOGO.RegistrationDAO\\AA.PMTOGO.RegistrationDAO.csproj",
         "projectName": "AA.PMTOGO.RegistrationDAO",
-        "projectPath": "C:\\Users\\Shiro\\Desktop\\ClassPoop\\Sem10\\CECS491A\\AA_Senior_Project\\Submissions\\Milestone2\\AA.PMTOGO.Registration\\AA.PMTOGO.RegistrationDAO\\AA.PMTOGO.RegistrationDAO.csproj",
-        "packagesPath": "C:\\Users\\Shiro\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Shiro\\Desktop\\ClassPoop\\Sem10\\CECS491A\\AA_Senior_Project\\Submissions\\Milestone2\\AA.PMTOGO.Registration\\AA.PMTOGO.RegistrationDAO\\obj\\",
+        "projectPath": "C:\\Users\\fmuha\\Source\\Repos\\AA_Senior_Project\\Submissions\\Milestone2\\AA.PMTOGO.Registration\\AA.PMTOGO.RegistrationDAO\\AA.PMTOGO.RegistrationDAO.csproj",
+        "packagesPath": "C:\\Users\\fmuha\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\fmuha\\Source\\Repos\\AA_Senior_Project\\Submissions\\Milestone2\\AA.PMTOGO.Registration\\AA.PMTOGO.RegistrationDAO\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Shiro\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\fmuha\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

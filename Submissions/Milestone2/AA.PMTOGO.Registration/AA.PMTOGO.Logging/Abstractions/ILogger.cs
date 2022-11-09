@@ -10,6 +10,7 @@ namespace AA.PMTOGO.Logging.Abstractions
 {
     public interface ILogger
     {
-        Result Log(string Level, string Event, string message); 
+        Result Log(string Level , string Event, string message);
+        Task<Result> AsyncLog(string Level, string Event, string message); 
     }
 }
