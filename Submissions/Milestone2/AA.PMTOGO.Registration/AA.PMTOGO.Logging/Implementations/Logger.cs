@@ -19,12 +19,13 @@ namespace AA.PMTOGO.Logging.Implementations
             // TODO: Lot to database
             //var tcs = new TaskCompletionSource<Result>();
             //Key to find the number of cores
+            /*
             var numOfProccessors = Environment.ProcessorCount-1;
             if (Environment.ProcessorCount > 1)
             { 
-                //numOfProccessors;
+                numOfProccessors;
             }
-
+            */
             //Task parallelism
             // Parallel.For(numOfProccessors, );
             
