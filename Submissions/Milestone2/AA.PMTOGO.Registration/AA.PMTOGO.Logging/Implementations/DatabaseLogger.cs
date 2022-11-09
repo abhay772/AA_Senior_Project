@@ -25,9 +25,14 @@ namespace AA.PMTOGO.Logging.Implementations
         {
             var result = new Result();
 
+            if (Enum.IsDefined(typeof(LogLevel), Level))
+            {
+
+            }
+
             if (message == null) 
             {
-                result.IsSuccessful = true;
+                result.IsSuccessful = false;
                 return result;
             }
 
