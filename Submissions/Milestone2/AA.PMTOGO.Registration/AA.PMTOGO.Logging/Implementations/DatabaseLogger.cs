@@ -14,14 +14,14 @@ namespace AA.PMTOGO.Logging.Implementations
             _dao = dao;
         }
 
-        public Result Log(string Level, string Event, string message)
+        public Result Log(string Level, string Event, string user,string message)
         {
-            return _dao.LogData(Level, Event, _category, message);
+            return _dao.LogData(Level, Event, _category, user, message);
 
 
         }
 
-        public async Task<Result> AsyncLog(string Level, string Event, string message)
+        public async Task<Result> AsyncLog(string Level, string Event, string user,string message)
         {
             var result = new Result();
 
@@ -33,7 +33,7 @@ namespace AA.PMTOGO.Logging.Implementations
 
 
 
-            var daoResults = await _dao.AsyncLogData(Level, Event, _category, message).ConfigureAwait(false);
+            var daoResults = await _dao.AsyncLogData(Level, Event, _category, user, message).ConfigureAwait(false);
 
             if (daoResults.IsSuccessful) 
             {

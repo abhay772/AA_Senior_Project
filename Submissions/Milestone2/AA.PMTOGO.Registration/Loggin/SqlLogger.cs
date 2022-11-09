@@ -13,7 +13,7 @@ public class SqlLogger : ILoggerDAO
     {
     }
 
-    public Result LogData(string level, string Event, string category, string message)
+    public Result LogData(string level, string Event, string category, string user, string message)
     {
         Result result = new Result();
 
@@ -29,6 +29,7 @@ public class SqlLogger : ILoggerDAO
             command.Parameters.AddWithValue("@Level", level);
             command.Parameters.AddWithValue("@Event", Event);
             command.Parameters.AddWithValue("@Category", category);
+            command.Parameters.AddWithValue("@user", user);
             command.Parameters.AddWithValue("@Message", message);
 
             var rows = command.ExecuteNonQuery();
