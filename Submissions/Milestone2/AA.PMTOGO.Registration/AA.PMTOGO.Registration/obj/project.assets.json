@@ -2,6 +2,19 @@
   "version": 3,
   "targets": {
     "net6.0": {
+      "Google.Protobuf/3.19.4": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/Google.Protobuf.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net5.0/Google.Protobuf.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "Humanizer.Core/2.8.26": {
         "type": "package",
         "compile": {
@@ -11,6 +24,55 @@
         },
         "runtime": {
           "lib/netstandard2.0/Humanizer.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "K4os.Compression.LZ4/1.2.6": {
+        "type": "package",
+        "dependencies": {
+          "System.Memory": "4.5.4"
+        },
+        "compile": {
+          "lib/netstandard2.0/K4os.Compression.LZ4.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/K4os.Compression.LZ4.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "K4os.Compression.LZ4.Streams/1.2.6": {
+        "type": "package",
+        "dependencies": {
+          "K4os.Compression.LZ4": "1.2.6",
+          "K4os.Hash.xxHash": "1.0.6"
+        },
+        "compile": {
+          "lib/netstandard2.1/K4os.Compression.LZ4.Streams.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/K4os.Compression.LZ4.Streams.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "K4os.Hash.xxHash/1.0.6": {
+        "type": "package",
+        "dependencies": {
+          "System.Memory": "4.5.3"
+        },
+        "compile": {
+          "lib/netstandard2.0/K4os.Hash.xxHash.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/K4os.Hash.xxHash.dll": {
             "related": ".xml"
           }
         }
@@ -476,6 +538,88 @@
           }
         }
       },
+      "MySql.Data/8.0.31": {
+        "type": "package",
+        "dependencies": {
+          "Google.Protobuf": "3.19.4",
+          "K4os.Compression.LZ4.Streams": "1.2.6",
+          "Portable.BouncyCastle": "1.9.0",
+          "System.Buffers": "4.5.1",
+          "System.Configuration.ConfigurationManager": "4.4.1",
+          "System.Runtime.CompilerServices.Unsafe": "5.0.0",
+          "System.Security.Permissions": "4.7.0",
+          "System.Text.Encoding.CodePages": "4.4.0"
+        },
+        "compile": {
+          "lib/net6.0/MySql.Data.dll": {
+            "related": ".xml"
+          },
+          "lib/net6.0/ZstdNet.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/MySql.Data.dll": {
+            "related": ".xml"
+          },
+          "lib/net6.0/ZstdNet.dll": {}
+        }
+      },
+      "Portable.BouncyCastle/1.9.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/BouncyCastle.Crypto.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/BouncyCastle.Crypto.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "runtime.native.System.Data.SqlClient.sni/4.7.0": {
+        "type": "package",
+        "dependencies": {
+          "runtime.win-arm64.runtime.native.System.Data.SqlClient.sni": "4.4.0",
+          "runtime.win-x64.runtime.native.System.Data.SqlClient.sni": "4.4.0",
+          "runtime.win-x86.runtime.native.System.Data.SqlClient.sni": "4.4.0"
+        }
+      },
+      "runtime.win-arm64.runtime.native.System.Data.SqlClient.sni/4.4.0": {
+        "type": "package",
+        "runtimeTargets": {
+          "runtimes/win-arm64/native/sni.dll": {
+            "assetType": "native",
+            "rid": "win-arm64"
+          }
+        }
+      },
+      "runtime.win-x64.runtime.native.System.Data.SqlClient.sni/4.4.0": {
+        "type": "package",
+        "runtimeTargets": {
+          "runtimes/win-x64/native/sni.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          }
+        }
+      },
+      "runtime.win-x86.runtime.native.System.Data.SqlClient.sni/4.4.0": {
+        "type": "package",
+        "runtimeTargets": {
+          "runtimes/win-x86/native/sni.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          }
+        }
+      },
+      "System.Buffers/4.5.1": {
+        "type": "package",
+        "compile": {
+          "ref/netcoreapp2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.0/_._": {}
+        }
+      },
       "System.Collections.Immutable/6.0.0": {
         "type": "package",
         "dependencies": {
@@ -502,13 +646,41 @@
           "System.Security.Permissions": "4.7.0"
         },
         "compile": {
-          "ref/netstandard2.0/_._": {
+          "ref/netstandard2.0/System.Configuration.ConfigurationManager.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
           "lib/netstandard2.0/System.Configuration.ConfigurationManager.dll": {
             "related": ".xml"
+          }
+        }
+      },
+      "System.Data.SqlClient/4.8.5": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Win32.Registry": "4.7.0",
+          "System.Security.Principal.Windows": "4.7.0",
+          "runtime.native.System.Data.SqlClient.sni": "4.7.0"
+        },
+        "compile": {
+          "ref/netcoreapp2.1/System.Data.SqlClient.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netcoreapp2.1/System.Data.SqlClient.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/unix/lib/netcoreapp2.1/System.Data.SqlClient.dll": {
+            "assetType": "runtime",
+            "rid": "unix"
+          },
+          "runtimes/win/lib/netcoreapp2.1/System.Data.SqlClient.dll": {
+            "assetType": "runtime",
+            "rid": "win"
           }
         }
       },
@@ -573,6 +745,15 @@
           }
         }
       },
+      "System.Memory/4.5.4": {
+        "type": "package",
+        "compile": {
+          "ref/netcoreapp2.1/_._": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.1/_._": {}
+        }
+      },
       "System.Runtime.Caching/4.7.0": {
         "type": "package",
         "dependencies": {
@@ -618,7 +799,7 @@
           "System.Security.Principal.Windows": "4.7.0"
         },
         "compile": {
-          "ref/netstandard2.0/_._": {
+          "ref/netstandard2.0/System.Security.AccessControl.dll": {
             "related": ".xml"
           }
         },
@@ -677,7 +858,7 @@
           "System.Windows.Extensions": "4.7.0"
         },
         "compile": {
-          "ref/netcoreapp3.0/_._": {
+          "ref/netcoreapp3.0/System.Security.Permissions.dll": {
             "related": ".xml"
           }
         },
@@ -690,7 +871,7 @@
       "System.Security.Principal.Windows/4.7.0": {
         "type": "package",
         "compile": {
-          "ref/netcoreapp3.0/_._": {
+          "ref/netcoreapp3.0/System.Security.Principal.Windows.dll": {
             "related": ".xml"
           }
         },
@@ -716,7 +897,7 @@
           "Microsoft.NETCore.Platforms": "3.1.0"
         },
         "compile": {
-          "lib/netstandard2.0/_._": {
+          "lib/netstandard2.0/System.Text.Encoding.CodePages.dll": {
             "related": ".xml"
           }
         },
@@ -738,7 +919,7 @@
           "System.Drawing.Common": "4.7.0"
         },
         "compile": {
-          "ref/netcoreapp3.0/_._": {
+          "ref/netcoreapp3.0/System.Windows.Extensions.dll": {
             "related": ".xml"
           }
         },
@@ -754,22 +935,85 @@
           }
         }
       },
-      "AA.PMTOGO.Logger/1.0.0": {
+      "AA.PMTOGO.LoggerDAO/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "AA.PMTOGO.Models": "1.0.0",
+          "Microsoft.Data.SqlClient": "2.1.4"
+        },
+        "compile": {
+          "bin/placeholder/AA.PMTOGO.LoggerDAO.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AA.PMTOGO.LoggerDAO.dll": {}
+        }
+      },
+      "AA.PMTOGO.Logging/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "AA.PMTOGO.LoggerDAO": "1.0.0",
+          "AA.PMTOGO.Models": "1.0.0",
+          "MySql.Data": "8.0.31",
+          "System.Data.SqlClient": "4.8.5"
+        },
+        "compile": {
+          "bin/placeholder/AA.PMTOGO.Logging.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AA.PMTOGO.Logging.dll": {}
+        }
+      },
+      "AA.PMTOGO.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/AA.PMTOGO.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AA.PMTOGO.Models.dll": {}
+        }
+      },
+      "AA.PMTOGO.RegistrationDAO/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "Microsoft.Data.SqlClient": "2.1.4"
         },
         "compile": {
-          "bin/placeholder/AA.PMTOGO.Logger.dll": {}
+          "bin/placeholder/AA.PMTOGO.RegistrationDAO.dll": {}
         },
         "runtime": {
-          "bin/placeholder/AA.PMTOGO.Logger.dll": {}
+          "bin/placeholder/AA.PMTOGO.RegistrationDAO.dll": {}
         }
       }
     }
   },
   "libraries": {
+    "Google.Protobuf/3.19.4": {
+      "sha512": "fd07/ykL4O4FhqrZIELm5lmiyOHfdPg9+o+hWr6tcfRdS7tHXnImg/2wtogLzlW2eEmr0J7j6ZrZvaWOLiJbxQ==",
+      "type": "package",
+      "path": "google.protobuf/3.19.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "google.protobuf.3.19.4.nupkg.sha512",
+        "google.protobuf.nuspec",
+        "lib/net45/Google.Protobuf.dll",
+        "lib/net45/Google.Protobuf.pdb",
+        "lib/net45/Google.Protobuf.xml",
+        "lib/net5.0/Google.Protobuf.dll",
+        "lib/net5.0/Google.Protobuf.pdb",
+        "lib/net5.0/Google.Protobuf.xml",
+        "lib/netstandard1.1/Google.Protobuf.dll",
+        "lib/netstandard1.1/Google.Protobuf.pdb",
+        "lib/netstandard1.1/Google.Protobuf.xml",
+        "lib/netstandard2.0/Google.Protobuf.dll",
+        "lib/netstandard2.0/Google.Protobuf.pdb",
+        "lib/netstandard2.0/Google.Protobuf.xml"
+      ]
+    },
     "Humanizer.Core/2.8.26": {
       "sha512": "OiKusGL20vby4uDEswj2IgkdchC1yQ6rwbIkZDVBPIR6al2b7n3pC91elBul9q33KaBgRKhbZH3+2Ur4fnWx2A==",
       "type": "package",
@@ -784,6 +1028,65 @@
         "lib/netstandard2.0/Humanizer.dll",
         "lib/netstandard2.0/Humanizer.xml",
         "logo.png"
+      ]
+    },
+    "K4os.Compression.LZ4/1.2.6": {
+      "sha512": "4EN8EE6bZG2U8dFfeqn+Om3UNajK3cPYHvyQROCFm4jNFVLuRB7Nl5bDkjBSAjfctS6konm+ay3u5RafBzltDA==",
+      "type": "package",
+      "path": "k4os.compression.lz4/1.2.6",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "k4os.compression.lz4.1.2.6.nupkg.sha512",
+        "k4os.compression.lz4.nuspec",
+        "lib/net45/K4os.Compression.LZ4.dll",
+        "lib/net45/K4os.Compression.LZ4.xml",
+        "lib/net46/K4os.Compression.LZ4.dll",
+        "lib/net46/K4os.Compression.LZ4.xml",
+        "lib/netstandard1.6/K4os.Compression.LZ4.dll",
+        "lib/netstandard1.6/K4os.Compression.LZ4.xml",
+        "lib/netstandard2.0/K4os.Compression.LZ4.dll",
+        "lib/netstandard2.0/K4os.Compression.LZ4.xml"
+      ]
+    },
+    "K4os.Compression.LZ4.Streams/1.2.6": {
+      "sha512": "5KMcNFRHeRrnJ9c8k5fZcfAJJEY0FndMiDiHIYa35Mx5KCMkeSNo/PEXu7YmtCoVczJagx+Vt7J/F+//S1PcJQ==",
+      "type": "package",
+      "path": "k4os.compression.lz4.streams/1.2.6",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "k4os.compression.lz4.streams.1.2.6.nupkg.sha512",
+        "k4os.compression.lz4.streams.nuspec",
+        "lib/net45/K4os.Compression.LZ4.Streams.dll",
+        "lib/net45/K4os.Compression.LZ4.Streams.xml",
+        "lib/net46/K4os.Compression.LZ4.Streams.dll",
+        "lib/net46/K4os.Compression.LZ4.Streams.xml",
+        "lib/netstandard1.6/K4os.Compression.LZ4.Streams.dll",
+        "lib/netstandard1.6/K4os.Compression.LZ4.Streams.xml",
+        "lib/netstandard2.0/K4os.Compression.LZ4.Streams.dll",
+        "lib/netstandard2.0/K4os.Compression.LZ4.Streams.xml",
+        "lib/netstandard2.1/K4os.Compression.LZ4.Streams.dll",
+        "lib/netstandard2.1/K4os.Compression.LZ4.Streams.xml"
+      ]
+    },
+    "K4os.Hash.xxHash/1.0.6": {
+      "sha512": "jCfNP0inx1sGcP3KSbpiDEH3km2e1sVBjMfKo+V92jr1dL4ZYgA1uhRMl1wAtdGZcbObXIikKqtVlgx3j/CW6g==",
+      "type": "package",
+      "path": "k4os.hash.xxhash/1.0.6",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "k4os.hash.xxhash.1.0.6.nupkg.sha512",
+        "k4os.hash.xxhash.nuspec",
+        "lib/net45/K4os.Hash.xxHash.dll",
+        "lib/net45/K4os.Hash.xxHash.xml",
+        "lib/net46/K4os.Hash.xxHash.dll",
+        "lib/net46/K4os.Hash.xxHash.xml",
+        "lib/netstandard1.6/K4os.Hash.xxHash.dll",
+        "lib/netstandard1.6/K4os.Hash.xxHash.xml",
+        "lib/netstandard2.0/K4os.Hash.xxHash.dll",
+        "lib/netstandard2.0/K4os.Hash.xxHash.xml"
       ]
     },
     "Microsoft.CSharp/4.5.0": {
@@ -1465,6 +1768,147 @@
         "version.txt"
       ]
     },
+    "MySql.Data/8.0.31": {
+      "sha512": "ZVcctmag6cX0DtDxWh3fhBlSdZfGHKIUIodl7QtjZKupSgbCT0X+bO1Faw/NfUR2VfoxB/L9WzLfeCvki65qVg==",
+      "type": "package",
+      "path": "mysql.data/8.0.31",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net452/MySql.Data.dll",
+        "lib/net452/MySql.Data.xml",
+        "lib/net452/ZstdNet.dll",
+        "lib/net48/MySql.Data.dll",
+        "lib/net48/MySql.Data.xml",
+        "lib/net48/ZstdNet.dll",
+        "lib/net5.0/MySql.Data.dll",
+        "lib/net5.0/MySql.Data.xml",
+        "lib/net5.0/ZstdNet.dll",
+        "lib/net6.0/MySql.Data.dll",
+        "lib/net6.0/MySql.Data.xml",
+        "lib/net6.0/ZstdNet.dll",
+        "lib/net7.0/MySql.Data.dll",
+        "lib/net7.0/MySql.Data.xml",
+        "lib/net7.0/ZstdNet.dll",
+        "lib/netstandard2.0/MySql.Data.dll",
+        "lib/netstandard2.0/MySql.Data.xml",
+        "lib/netstandard2.0/ZstdNet.dll",
+        "lib/netstandard2.1/MySql.Data.dll",
+        "lib/netstandard2.1/MySql.Data.xml",
+        "lib/netstandard2.1/ZstdNet.dll",
+        "mysql.data.8.0.31.nupkg.sha512",
+        "mysql.data.nuspec"
+      ]
+    },
+    "Portable.BouncyCastle/1.9.0": {
+      "sha512": "eZZBCABzVOek+id9Xy04HhmgykF0wZg9wpByzrWN7q8qEI0Qen9b7tfd7w8VA3dOeesumMG7C5ZPy0jk7PSRHw==",
+      "type": "package",
+      "path": "portable.bouncycastle/1.9.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/BouncyCastle.Crypto.dll",
+        "lib/net40/BouncyCastle.Crypto.xml",
+        "lib/netstandard2.0/BouncyCastle.Crypto.dll",
+        "lib/netstandard2.0/BouncyCastle.Crypto.xml",
+        "portable.bouncycastle.1.9.0.nupkg.sha512",
+        "portable.bouncycastle.nuspec"
+      ]
+    },
+    "runtime.native.System.Data.SqlClient.sni/4.7.0": {
+      "sha512": "9kyFSIdN3T0qjDQ2R0HRXYIhS3l5psBzQi6qqhdLz+SzFyEy4sVxNOke+yyYv8Cu8rPER12c3RDjLT8wF3WBYQ==",
+      "type": "package",
+      "path": "runtime.native.system.data.sqlclient.sni/4.7.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "runtime.native.system.data.sqlclient.sni.4.7.0.nupkg.sha512",
+        "runtime.native.system.data.sqlclient.sni.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "runtime.win-arm64.runtime.native.System.Data.SqlClient.sni/4.4.0": {
+      "sha512": "LbrynESTp3bm5O/+jGL8v0Qg5SJlTV08lpIpFesXjF6uGNMWqFnUQbYBJwZTeua6E/Y7FIM1C54Ey1btLWupdg==",
+      "type": "package",
+      "path": "runtime.win-arm64.runtime.native.system.data.sqlclient.sni/4.4.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ThirdPartyNotices.txt",
+        "dotnet_library_license.txt",
+        "runtime.win-arm64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+        "runtime.win-arm64.runtime.native.system.data.sqlclient.sni.nuspec",
+        "runtimes/win-arm64/native/sni.dll",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "runtime.win-x64.runtime.native.System.Data.SqlClient.sni/4.4.0": {
+      "sha512": "38ugOfkYJqJoX9g6EYRlZB5U2ZJH51UP8ptxZgdpS07FgOEToV+lS11ouNK2PM12Pr6X/PpT5jK82G3DwH/SxQ==",
+      "type": "package",
+      "path": "runtime.win-x64.runtime.native.system.data.sqlclient.sni/4.4.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ThirdPartyNotices.txt",
+        "dotnet_library_license.txt",
+        "runtime.win-x64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+        "runtime.win-x64.runtime.native.system.data.sqlclient.sni.nuspec",
+        "runtimes/win-x64/native/sni.dll",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "runtime.win-x86.runtime.native.System.Data.SqlClient.sni/4.4.0": {
+      "sha512": "YhEdSQUsTx+C8m8Bw7ar5/VesXvCFMItyZF7G1AUY+OM0VPZUOeAVpJ4Wl6fydBGUYZxojTDR3I6Bj/+BPkJNA==",
+      "type": "package",
+      "path": "runtime.win-x86.runtime.native.system.data.sqlclient.sni/4.4.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ThirdPartyNotices.txt",
+        "dotnet_library_license.txt",
+        "runtime.win-x86.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+        "runtime.win-x86.runtime.native.system.data.sqlclient.sni.nuspec",
+        "runtimes/win-x86/native/sni.dll",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.Buffers/4.5.1": {
+      "sha512": "Rw7ijyl1qqRS0YQD/WycNst8hUUMgrMH4FCn1nNm27M4VxchZ1js3fVjQaANHO5f3sN4isvP4a+Met9Y4YomAg==",
+      "type": "package",
+      "path": "system.buffers/4.5.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/System.Buffers.dll",
+        "lib/net461/System.Buffers.xml",
+        "lib/netcoreapp2.0/_._",
+        "lib/netstandard1.1/System.Buffers.dll",
+        "lib/netstandard1.1/System.Buffers.xml",
+        "lib/netstandard2.0/System.Buffers.dll",
+        "lib/netstandard2.0/System.Buffers.xml",
+        "lib/uap10.0.16299/_._",
+        "ref/net45/System.Buffers.dll",
+        "ref/net45/System.Buffers.xml",
+        "ref/netcoreapp2.0/_._",
+        "ref/netstandard1.1/System.Buffers.dll",
+        "ref/netstandard1.1/System.Buffers.xml",
+        "ref/netstandard2.0/System.Buffers.dll",
+        "ref/netstandard2.0/System.Buffers.xml",
+        "ref/uap10.0.16299/_._",
+        "system.buffers.4.5.1.nupkg.sha512",
+        "system.buffers.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
     "System.Collections.Immutable/6.0.0": {
       "sha512": "l4zZJ1WU2hqpQQHXz1rvC3etVZN+2DLmQMO79FhOTZHMn8tDRr+WU287sbomD0BETlmKDn0ygUgVy9k5xkkJdA==",
       "type": "package",
@@ -1507,6 +1951,92 @@
         "ref/netstandard2.0/System.Configuration.ConfigurationManager.xml",
         "system.configuration.configurationmanager.4.7.0.nupkg.sha512",
         "system.configuration.configurationmanager.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.Data.SqlClient/4.8.5": {
+      "sha512": "fRqxut4lrndPHrXD+ht1XRmCL3obuKldm4XjCRYS9p5f7FSR7shBxAwTkDrpFMsHC9BhNgjjmUtiIjvehn5zkg==",
+      "type": "package",
+      "path": "system.data.sqlclient/4.8.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net451/System.Data.SqlClient.dll",
+        "lib/net46/System.Data.SqlClient.dll",
+        "lib/net461/System.Data.SqlClient.dll",
+        "lib/net461/System.Data.SqlClient.xml",
+        "lib/netcoreapp2.1/System.Data.SqlClient.dll",
+        "lib/netcoreapp2.1/System.Data.SqlClient.xml",
+        "lib/netstandard1.2/System.Data.SqlClient.dll",
+        "lib/netstandard1.2/System.Data.SqlClient.xml",
+        "lib/netstandard1.3/System.Data.SqlClient.dll",
+        "lib/netstandard1.3/System.Data.SqlClient.xml",
+        "lib/netstandard2.0/System.Data.SqlClient.dll",
+        "lib/netstandard2.0/System.Data.SqlClient.xml",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net451/System.Data.SqlClient.dll",
+        "ref/net46/System.Data.SqlClient.dll",
+        "ref/net461/System.Data.SqlClient.dll",
+        "ref/net461/System.Data.SqlClient.xml",
+        "ref/netcoreapp2.1/System.Data.SqlClient.dll",
+        "ref/netcoreapp2.1/System.Data.SqlClient.xml",
+        "ref/netstandard1.2/System.Data.SqlClient.dll",
+        "ref/netstandard1.2/System.Data.SqlClient.xml",
+        "ref/netstandard1.2/de/System.Data.SqlClient.xml",
+        "ref/netstandard1.2/es/System.Data.SqlClient.xml",
+        "ref/netstandard1.2/fr/System.Data.SqlClient.xml",
+        "ref/netstandard1.2/it/System.Data.SqlClient.xml",
+        "ref/netstandard1.2/ja/System.Data.SqlClient.xml",
+        "ref/netstandard1.2/ko/System.Data.SqlClient.xml",
+        "ref/netstandard1.2/ru/System.Data.SqlClient.xml",
+        "ref/netstandard1.2/zh-hans/System.Data.SqlClient.xml",
+        "ref/netstandard1.2/zh-hant/System.Data.SqlClient.xml",
+        "ref/netstandard1.3/System.Data.SqlClient.dll",
+        "ref/netstandard1.3/System.Data.SqlClient.xml",
+        "ref/netstandard1.3/de/System.Data.SqlClient.xml",
+        "ref/netstandard1.3/es/System.Data.SqlClient.xml",
+        "ref/netstandard1.3/fr/System.Data.SqlClient.xml",
+        "ref/netstandard1.3/it/System.Data.SqlClient.xml",
+        "ref/netstandard1.3/ja/System.Data.SqlClient.xml",
+        "ref/netstandard1.3/ko/System.Data.SqlClient.xml",
+        "ref/netstandard1.3/ru/System.Data.SqlClient.xml",
+        "ref/netstandard1.3/zh-hans/System.Data.SqlClient.xml",
+        "ref/netstandard1.3/zh-hant/System.Data.SqlClient.xml",
+        "ref/netstandard2.0/System.Data.SqlClient.dll",
+        "ref/netstandard2.0/System.Data.SqlClient.xml",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "runtimes/unix/lib/netcoreapp2.1/System.Data.SqlClient.dll",
+        "runtimes/unix/lib/netcoreapp2.1/System.Data.SqlClient.xml",
+        "runtimes/unix/lib/netstandard1.3/System.Data.SqlClient.dll",
+        "runtimes/unix/lib/netstandard2.0/System.Data.SqlClient.dll",
+        "runtimes/unix/lib/netstandard2.0/System.Data.SqlClient.xml",
+        "runtimes/win/lib/net451/System.Data.SqlClient.dll",
+        "runtimes/win/lib/net46/System.Data.SqlClient.dll",
+        "runtimes/win/lib/net461/System.Data.SqlClient.dll",
+        "runtimes/win/lib/net461/System.Data.SqlClient.xml",
+        "runtimes/win/lib/netcoreapp2.1/System.Data.SqlClient.dll",
+        "runtimes/win/lib/netcoreapp2.1/System.Data.SqlClient.xml",
+        "runtimes/win/lib/netstandard1.3/System.Data.SqlClient.dll",
+        "runtimes/win/lib/netstandard2.0/System.Data.SqlClient.dll",
+        "runtimes/win/lib/netstandard2.0/System.Data.SqlClient.xml",
+        "runtimes/win/lib/uap10.0.16299/System.Data.SqlClient.dll",
+        "runtimes/win/lib/uap10.0.16299/System.Data.SqlClient.xml",
+        "system.data.sqlclient.4.8.5.nupkg.sha512",
+        "system.data.sqlclient.nuspec",
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
@@ -1590,6 +2120,29 @@
         "lib/netstandard2.0/System.IdentityModel.Tokens.Jwt.xml",
         "system.identitymodel.tokens.jwt.6.8.0.nupkg.sha512",
         "system.identitymodel.tokens.jwt.nuspec"
+      ]
+    },
+    "System.Memory/4.5.4": {
+      "sha512": "1MbJTHS1lZ4bS4FmsJjnuGJOu88ZzTT2rLvrhW7Ygic+pC0NWA+3hgAen0HRdsocuQXCkUTdFn9yHJJhsijDXw==",
+      "type": "package",
+      "path": "system.memory/4.5.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/System.Memory.dll",
+        "lib/net461/System.Memory.xml",
+        "lib/netcoreapp2.1/_._",
+        "lib/netstandard1.1/System.Memory.dll",
+        "lib/netstandard1.1/System.Memory.xml",
+        "lib/netstandard2.0/System.Memory.dll",
+        "lib/netstandard2.0/System.Memory.xml",
+        "ref/netcoreapp2.1/_._",
+        "system.memory.4.5.4.nupkg.sha512",
+        "system.memory.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
       ]
     },
     "System.Runtime.Caching/4.7.0": {
@@ -1949,15 +2502,32 @@
         "version.txt"
       ]
     },
-    "AA.PMTOGO.Logger/1.0.0": {
+    "AA.PMTOGO.LoggerDAO/1.0.0": {
       "type": "project",
-      "path": "../Loggin/AA.PMTOGO.Logger.csproj",
-      "msbuildProject": "../Loggin/AA.PMTOGO.Logger.csproj"
+      "path": "../Loggin/AA.PMTOGO.LoggerDAO.csproj",
+      "msbuildProject": "../Loggin/AA.PMTOGO.LoggerDAO.csproj"
+    },
+    "AA.PMTOGO.Logging/1.0.0": {
+      "type": "project",
+      "path": "../AA.PMTOGO.Logging/AA.PMTOGO.Logging.csproj",
+      "msbuildProject": "../AA.PMTOGO.Logging/AA.PMTOGO.Logging.csproj"
+    },
+    "AA.PMTOGO.Models/1.0.0": {
+      "type": "project",
+      "path": "../AA.PMTOGO.Models/AA.PMTOGO.Models.csproj",
+      "msbuildProject": "../AA.PMTOGO.Models/AA.PMTOGO.Models.csproj"
+    },
+    "AA.PMTOGO.RegistrationDAO/1.0.0": {
+      "type": "project",
+      "path": "../AA.PMTOGO.RegistrationDAO/AA.PMTOGO.RegistrationDAO.csproj",
+      "msbuildProject": "../AA.PMTOGO.RegistrationDAO/AA.PMTOGO.RegistrationDAO.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "AA.PMTOGO.Logger >= 1.0.0",
+      "AA.PMTOGO.LoggerDAO >= 1.0.0",
+      "AA.PMTOGO.Logging >= 1.0.0",
+      "AA.PMTOGO.RegistrationDAO >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 6.0.10",
       "Microsoft.EntityFrameworkCore.Design >= 6.0.10"
     ]
@@ -1989,8 +2559,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Shiro\\Desktop\\ClassPoop\\Sem10\\CECS491A\\AA_Senior_Project\\Submissions\\Milestone2\\AA.PMTOGO.Registration\\Loggin\\AA.PMTOGO.Logger.csproj": {
-              "projectPath": "C:\\Users\\Shiro\\Desktop\\ClassPoop\\Sem10\\CECS491A\\AA_Senior_Project\\Submissions\\Milestone2\\AA.PMTOGO.Registration\\Loggin\\AA.PMTOGO.Logger.csproj"
+            "C:\\Users\\Shiro\\Desktop\\ClassPoop\\Sem10\\CECS491A\\AA_Senior_Project\\Submissions\\Milestone2\\AA.PMTOGO.Registration\\AA.PMTOGO.Logging\\AA.PMTOGO.Logging.csproj": {
+              "projectPath": "C:\\Users\\Shiro\\Desktop\\ClassPoop\\Sem10\\CECS491A\\AA_Senior_Project\\Submissions\\Milestone2\\AA.PMTOGO.Registration\\AA.PMTOGO.Logging\\AA.PMTOGO.Logging.csproj"
+            },
+            "C:\\Users\\Shiro\\Desktop\\ClassPoop\\Sem10\\CECS491A\\AA_Senior_Project\\Submissions\\Milestone2\\AA.PMTOGO.Registration\\AA.PMTOGO.RegistrationDAO\\AA.PMTOGO.RegistrationDAO.csproj": {
+              "projectPath": "C:\\Users\\Shiro\\Desktop\\ClassPoop\\Sem10\\CECS491A\\AA_Senior_Project\\Submissions\\Milestone2\\AA.PMTOGO.Registration\\AA.PMTOGO.RegistrationDAO\\AA.PMTOGO.RegistrationDAO.csproj"
+            },
+            "C:\\Users\\Shiro\\Desktop\\ClassPoop\\Sem10\\CECS491A\\AA_Senior_Project\\Submissions\\Milestone2\\AA.PMTOGO.Registration\\Loggin\\AA.PMTOGO.LoggerDAO.csproj": {
+              "projectPath": "C:\\Users\\Shiro\\Desktop\\ClassPoop\\Sem10\\CECS491A\\AA_Senior_Project\\Submissions\\Milestone2\\AA.PMTOGO.Registration\\Loggin\\AA.PMTOGO.LoggerDAO.csproj"
             }
           }
         }

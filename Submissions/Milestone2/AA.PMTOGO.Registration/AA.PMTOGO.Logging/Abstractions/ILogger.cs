@@ -1,4 +1,4 @@
-﻿using MySqlX.XDevAPI.Common;
+﻿using AA.PMTOGO.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,19 +10,6 @@ namespace AA.PMTOGO.Logging.Abstractions
 {
     public interface ILogger
     {
-        Result Log(string message); 
+        Result Log(string Level, string Event, string message); 
     }
-
-    public interface IDataAccessObject
-    {
-        object LogData(string message);
-        Result ReadData();
-        Result WriteData();
-    }
-
-    public interface IDataReader
-    {
-        Result ReadData();
-    }
-
 }

@@ -25,8 +25,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\AA.PMTOGO.Logging\AA.PMTOGO.Logging.csproj" />
     <ProjectReference Include="..\AA.PMTOGO.RegistrationDAO\AA.PMTOGO.RegistrationDAO.csproj" />
-    <ProjectReference Include="..\Loggin\AA.PMTOGO.Logger.csproj" />
+    <ProjectReference Include="..\Loggin\AA.PMTOGO.LoggerDAO.csproj" />
   </ItemGroup>
 
 </Project>

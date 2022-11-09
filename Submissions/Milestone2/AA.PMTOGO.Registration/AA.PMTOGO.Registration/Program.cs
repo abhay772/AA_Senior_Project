@@ -1,4 +1,6 @@
-﻿using AA.PMTOGO.Logger;
+﻿using AA.PMTOGO.LoggerDAO;
+using AA.PMTOGO.Logging.Implementations;
+using AA.PMTOGO.Models;
 using AA.PMTOGO.RegistrationDAO;
 using Microsoft.EntityFrameworkCore.ChangeTracking;
 using System.Data.SqlTypes;
@@ -112,11 +114,12 @@ public class Program
     //}
     public static void Main(string[] args)
     {
-        var usrRegister = new SqlRegistrationDAO();
+        //var usrRegister = new SqlRegistrationDAO();
 
-        usrRegister.AddUser("absolanki772@gmail.com", "trees", new SqlDateTime(1999,06,11));
-        //var logr = new SqlLogger("registration");
-        //logr.LogData("info", "general_check", "Testing the Logger");
+        //usrRegister.AddUser("absolanki772@gmail.com", "trees", new SqlDateTime(1999,06,11));
+
+        var logr = new DatabaseLogger("registration",new SqlLogger());
+        logr.Log("info", "general_check", "Testing the Logger");
         //Menu();
     }
 }

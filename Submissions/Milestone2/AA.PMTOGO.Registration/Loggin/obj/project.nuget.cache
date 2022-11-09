@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "B/jXe0acAjN+Rq7lbeBFVAO9PCefZb/9V7pcrdYo+Ad/qqQX3O4eQci0nfeVlSPkmwWdlg5p1ngpvj6iVmEjYQ==",
+  "dgSpecHash": "XaiEafJAGpuMKETAHxA7CU2dmrYGIefwAEkQnU8TiMe1m7rCA1svlP4u9aAn5BZNpHTtkNI55qzbUtJzuo4hMw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Shiro\\Desktop\\ClassPoop\\Sem10\\CECS491A\\AA_Senior_Project\\Submissions\\Milestone2\\AA.PMTOGO.Registration\\Loggin\\AA.PMTOGO.Logger.csproj",
+  "projectFilePath": "C:\\Users\\Shiro\\Desktop\\ClassPoop\\Sem10\\CECS491A\\AA_Senior_Project\\Submissions\\Milestone2\\AA.PMTOGO.Registration\\Loggin\\AA.PMTOGO.LoggerDAO.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Shiro\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\Shiro\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",
