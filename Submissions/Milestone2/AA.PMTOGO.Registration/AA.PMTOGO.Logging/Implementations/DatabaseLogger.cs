@@ -25,9 +25,27 @@ namespace AA.PMTOGO.Logging.Implementations
         {
             var result = new Result();
 
-            if (Level == null )
+            if (message == null) 
+            {
+                result.IsSuccessful = true;
+                return result;
+            }
 
-            var daoresults = await _dao.AsyncLogData(Level, Event, _category, message).ConfigureAwait(false);
+
+
+            var daoResults = await _dao.AsyncLogData(Level, Event, _category, message).ConfigureAwait(false);
+
+            if (daoResults.IsSuccessful) 
+            {
+                result.IsSuccessful = true;
+                return result;
+            }
+
+            result.IsSuccessful = false;
+            result.ErrorMessage = daoResults.ErrorMessage;
+
+            return result;
+
         }
 
         //public async Task<Result> Log(String message)
