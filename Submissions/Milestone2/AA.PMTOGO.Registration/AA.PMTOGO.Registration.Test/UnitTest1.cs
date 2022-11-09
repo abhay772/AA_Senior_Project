@@ -49,7 +49,7 @@ namespace AA.PMTOGO.Registration.Test
             };
 
             //act
-            addUser(usr);
+            addUser(user);
 
             //assert
 

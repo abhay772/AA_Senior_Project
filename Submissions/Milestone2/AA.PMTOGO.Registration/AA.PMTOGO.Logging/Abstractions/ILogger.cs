@@ -1,5 +1,5 @@
-﻿using AA.Product.Models;
-using MySqlX.XDevAPI.Common;
+﻿using AA.PMTOGO.Logging.LoggingDAL.Abstractions;
+using AA.PMTOGO.Logging.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,7 +10,7 @@ namespace AA.PMTOGO.Logging.Abstractions
 {
     public interface ILogger
     {
-        Result Log(string message); 
+        Task<Result> Log(string message);
     }
 
     public interface IDataAccessObject

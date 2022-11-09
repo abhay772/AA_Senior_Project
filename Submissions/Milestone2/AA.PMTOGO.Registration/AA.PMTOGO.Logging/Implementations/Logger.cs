@@ -1,15 +1,15 @@
 ﻿using AA.PMTOGO.Logging.Abstractions;
 using AA.PMTOGO.Logging.Models;
-using AA.PMTOGO.Logging;
-using Microsoft.Data.SqlClient;
+using AA.PMTOGO.Logging.LoggingDAL.Abstractions;
+using System.Data.SqlClient;
 
 
 namespace AA.PMTOGO.Logging.Implementations
 {
-    public class DatabaseLogger : ILogger
+    public class Logger : ILogger
     {
-        private readonly IDataAccessObject _dao;
-        public void Logger(ILoggerDAO dao) // Inversion of Control
+        private readonly ILoggerDAO _dao;
+        public Logger(ILoggerDAO dao) // Inversion of Control
         {
             _dao = dao;
         }
@@ -67,5 +67,6 @@ namespace AA.PMTOGO.Logging.Implementations
 
             return result;
         }
+
     }
 }

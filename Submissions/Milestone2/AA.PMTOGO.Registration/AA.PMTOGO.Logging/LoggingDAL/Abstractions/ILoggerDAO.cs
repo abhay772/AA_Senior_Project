@@ -1,7 +1,9 @@
-﻿namespace AA.PMTOGO.Logging.LoggingDAL.Abstractions
+﻿using AA.PMTOGO.Logging.Models;
+
+namespace AA.PMTOGO.Logging.LoggingDAL.Abstractions;
+
+
+public interface ILoggerDAO
 {
-    public interface ILoggerDAO
-    {
-        Task<Result> LogData(string message);
-    }
+    Task<Result> LogData(string message);
 }
