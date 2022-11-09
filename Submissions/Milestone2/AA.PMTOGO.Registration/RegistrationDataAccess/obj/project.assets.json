@@ -2186,19 +2186,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Faisal\\.nuget\\packages\\": {}
+    "C:\\Users\\Shiro\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Faisal\\Source\\Repos\\AA_Senior_Project\\Submissions\\Milestone2\\AA.PMTOGO.Registration\\RegistrationDataAccess\\RegistrationDataAccess.csproj",
+      "projectUniqueName": "C:\\Users\\Shiro\\Desktop\\ClassPoop\\Sem10\\CECS491A\\AA_Senior_Project\\Submissions\\Milestone2\\AA.PMTOGO.Registration\\RegistrationDataAccess\\RegistrationDataAccess.csproj",
       "projectName": "RegistrationDataAccess",
-      "projectPath": "C:\\Users\\Faisal\\Source\\Repos\\AA_Senior_Project\\Submissions\\Milestone2\\AA.PMTOGO.Registration\\RegistrationDataAccess\\RegistrationDataAccess.csproj",
-      "packagesPath": "C:\\Users\\Faisal\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Faisal\\Source\\Repos\\AA_Senior_Project\\Submissions\\Milestone2\\AA.PMTOGO.Registration\\RegistrationDataAccess\\obj\\",
+      "projectPath": "C:\\Users\\Shiro\\Desktop\\ClassPoop\\Sem10\\CECS491A\\AA_Senior_Project\\Submissions\\Milestone2\\AA.PMTOGO.Registration\\RegistrationDataAccess\\RegistrationDataAccess.csproj",
+      "packagesPath": "C:\\Users\\Shiro\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Shiro\\Desktop\\ClassPoop\\Sem10\\CECS491A\\AA_Senior_Project\\Submissions\\Milestone2\\AA.PMTOGO.Registration\\RegistrationDataAccess\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Faisal\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Shiro\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

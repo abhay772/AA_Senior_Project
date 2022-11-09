@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore.ChangeTracking;
+﻿using AA.PMTOGO.Logger;
+using Microsoft.EntityFrameworkCore.ChangeTracking;
 using RegistrationDataAccess.DataAccess;
 using RegistrationDataAccess.Models;
 using System.Text.RegularExpressions;
@@ -90,7 +91,7 @@ public class Program
 
     public static void Menu()
     {
-        string menu = "\n\nOptions:\n(1) Sign Up\n(2) Empty the datastore\n(3) Exit\n";
+        string menu = "\n\nOptions:\n(1) Sign Up\n(3) Exit\n";
         bool Continue = true;
         while (Continue)
         {
@@ -101,8 +102,6 @@ public class Program
                 case "1":   //signUp
                     createUser();
                     break;
-                case "2":
-                    break;
                 case "3":
                     Continue = false;
                     break;
@@ -111,7 +110,9 @@ public class Program
     }
     public static void Main(string[] args)
     {
-        Menu();
+        var logr = new SqlLogger("registration");
+        logr.LogData("info", "general_check", "Testing the Logger");
+        //Menu();
     }
 }
 

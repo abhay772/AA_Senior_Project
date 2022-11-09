@@ -1,6 +1,4 @@
-﻿using Microsoft.Data.SqlClient;
-using System.Data;
-using System.Data.SqlClient;
+﻿using System.Data.SqlClient;
 
 public class LoggingDAO
 {
@@ -15,15 +13,15 @@ public class LoggingDAO
 
     public bool ExecuteSQL(string sql)
     {
-        var connectionString = "Server=.\\;Database=AlgorithmicAlchemist.PMtoGo.Logs;Integrated Securtiy = True; Encrypt";
+        var connectionString = "Server=.\\;Database=AA.PMtoGo.Logs;Integrated Securtiy = True; Encrypt=False";
         using (var connection = new SqlConnection(connectionString)) //ADO.NET, ANSI SQL
         {
             connection.Open();
 
             //Insert SQL statement
-            var insertSql = "INSERT INTO AlgorithmicAlchemist.PMtoGo.Logs (Message) values(%messgae)";
+            var insertSql = "INSERT INTO AA.PMtoGo.Logs (Message) values(%messgae)";
 
-            var parameter = new SqlParameter("message");
+            var parameter = new SqlParameter();
 
             var command = new SqlCommand(insertSql, connection);
             command.Parameters.Add(parameter);

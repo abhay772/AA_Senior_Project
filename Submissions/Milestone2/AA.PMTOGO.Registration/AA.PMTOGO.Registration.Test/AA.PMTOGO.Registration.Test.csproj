@@ -17,7 +17,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\AA.PMTOGO.Registration\AA.PMTOGO.Registration.csproj" />
-    <ProjectReference Include="..\RegistrationDataAccess\RegistrationDataAccess.csproj" />
   </ItemGroup>
 
 </Project>

@@ -244,3 +244,12 @@ C:\Users\Faisal\Source\Repos\AA_Senior_Project\Submissions\Milestone2\AA.PMTOGO.
 C:\Users\Faisal\Source\Repos\AA_Senior_Project\Submissions\Milestone2\AA.PMTOGO.Registration\AA.PMTOGO.Registration\obj\Debug\net6.0\AA.PMTOGO.Registration.pdb
 C:\Users\Faisal\Source\Repos\AA_Senior_Project\Submissions\Milestone2\AA.PMTOGO.Registration\AA.PMTOGO.Registration\obj\Debug\net6.0\AA.PMTOGO.Registration.genruntimeconfig.cache
 C:\Users\Faisal\Source\Repos\AA_Senior_Project\Submissions\Milestone2\AA.PMTOGO.Registration\AA.PMTOGO.Registration\obj\Debug\net6.0\ref\AA.PMTOGO.Registration.dll
+C:\Users\Shiro\Desktop\ClassPoop\Sem10\CECS491A\AA_Senior_Project\Submissions\Milestone2\AA.PMTOGO.Registration\AA.PMTOGO.Registration\bin\Debug\net6.0\Humanizer.dll
+C:\Users\Shiro\Desktop\ClassPoop\Sem10\CECS491A\AA_Senior_Project\Submissions\Milestone2\AA.PMTOGO.Registration\AA.PMTOGO.Registration\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\Shiro\Desktop\ClassPoop\Sem10\CECS491A\AA_Senior_Project\Submissions\Milestone2\AA.PMTOGO.Registration\AA.PMTOGO.Registration\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\Shiro\Desktop\ClassPoop\Sem10\CECS491A\AA_Senior_Project\Submissions\Milestone2\AA.PMTOGO.Registration\AA.PMTOGO.Registration\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\Shiro\Desktop\ClassPoop\Sem10\CECS491A\AA_Senior_Project\Submissions\Milestone2\AA.PMTOGO.Registration\AA.PMTOGO.Registration\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Shiro\Desktop\ClassPoop\Sem10\CECS491A\AA_Senior_Project\Submissions\Milestone2\AA.PMTOGO.Registration\AA.PMTOGO.Registration\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\Shiro\Desktop\ClassPoop\Sem10\CECS491A\AA_Senior_Project\Submissions\Milestone2\AA.PMTOGO.Registration\AA.PMTOGO.Registration\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\Shiro\Desktop\ClassPoop\Sem10\CECS491A\AA_Senior_Project\Submissions\Milestone2\AA.PMTOGO.Registration\AA.PMTOGO.Registration\bin\Debug\net6.0\Logger.dll
+C:\Users\Shiro\Desktop\ClassPoop\Sem10\CECS491A\AA_Senior_Project\Submissions\Milestone2\AA.PMTOGO.Registration\AA.PMTOGO.Registration\bin\Debug\net6.0\Logger.pdb
