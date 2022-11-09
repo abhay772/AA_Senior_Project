@@ -1,0 +1,12 @@
+C:\Users\Shiro\Desktop\ClassPoop\Sem10\CECS491A\AA_Senior_Project\Submissions\Milestone2\AA.PMTOGO.Registration\AA.PMTOGO.RegistrationDAO\bin\Debug\net6.0\AA.PMTOGO.RegistrationDAO.deps.json
+C:\Users\Shiro\Desktop\ClassPoop\Sem10\CECS491A\AA_Senior_Project\Submissions\Milestone2\AA.PMTOGO.Registration\AA.PMTOGO.RegistrationDAO\bin\Debug\net6.0\AA.PMTOGO.RegistrationDAO.dll
+C:\Users\Shiro\Desktop\ClassPoop\Sem10\CECS491A\AA_Senior_Project\Submissions\Milestone2\AA.PMTOGO.Registration\AA.PMTOGO.RegistrationDAO\bin\Debug\net6.0\AA.PMTOGO.RegistrationDAO.pdb
+C:\Users\Shiro\Desktop\ClassPoop\Sem10\CECS491A\AA_Senior_Project\Submissions\Milestone2\AA.PMTOGO.Registration\AA.PMTOGO.RegistrationDAO\obj\Debug\net6.0\AA.PMTOGO.RegistrationDAO.csproj.AssemblyReference.cache
+C:\Users\Shiro\Desktop\ClassPoop\Sem10\CECS491A\AA_Senior_Project\Submissions\Milestone2\AA.PMTOGO.Registration\AA.PMTOGO.RegistrationDAO\obj\Debug\net6.0\AA.PMTOGO.RegistrationDAO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Shiro\Desktop\ClassPoop\Sem10\CECS491A\AA_Senior_Project\Submissions\Milestone2\AA.PMTOGO.Registration\AA.PMTOGO.RegistrationDAO\obj\Debug\net6.0\AA.PMTOGO.RegistrationDAO.AssemblyInfoInputs.cache
+C:\Users\Shiro\Desktop\ClassPoop\Sem10\CECS491A\AA_Senior_Project\Submissions\Milestone2\AA.PMTOGO.Registration\AA.PMTOGO.RegistrationDAO\obj\Debug\net6.0\AA.PMTOGO.RegistrationDAO.AssemblyInfo.cs
+C:\Users\Shiro\Desktop\ClassPoop\Sem10\CECS491A\AA_Senior_Project\Submissions\Milestone2\AA.PMTOGO.Registration\AA.PMTOGO.RegistrationDAO\obj\Debug\net6.0\AA.PMTOGO.RegistrationDAO.csproj.CoreCompileInputs.cache
+C:\Users\Shiro\Desktop\ClassPoop\Sem10\CECS491A\AA_Senior_Project\Submissions\Milestone2\AA.PMTOGO.Registration\AA.PMTOGO.RegistrationDAO\obj\Debug\net6.0\AA.PMTOGO.RegistrationDAO.dll
+C:\Users\Shiro\Desktop\ClassPoop\Sem10\CECS491A\AA_Senior_Project\Submissions\Milestone2\AA.PMTOGO.Registration\AA.PMTOGO.RegistrationDAO\obj\Debug\net6.0\refint\AA.PMTOGO.RegistrationDAO.dll
+C:\Users\Shiro\Desktop\ClassPoop\Sem10\CECS491A\AA_Senior_Project\Submissions\Milestone2\AA.PMTOGO.Registration\AA.PMTOGO.RegistrationDAO\obj\Debug\net6.0\AA.PMTOGO.RegistrationDAO.pdb
+C:\Users\Shiro\Desktop\ClassPoop\Sem10\CECS491A\AA_Senior_Project\Submissions\Milestone2\AA.PMTOGO.Registration\AA.PMTOGO.RegistrationDAO\obj\Debug\net6.0\ref\AA.PMTOGO.RegistrationDAO.dll

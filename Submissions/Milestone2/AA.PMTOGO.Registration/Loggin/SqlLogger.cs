@@ -34,8 +34,8 @@ public class SqlLogger
             {
                 return true;
             }
-            return false;
         }
+        return false;
     }
 }
 

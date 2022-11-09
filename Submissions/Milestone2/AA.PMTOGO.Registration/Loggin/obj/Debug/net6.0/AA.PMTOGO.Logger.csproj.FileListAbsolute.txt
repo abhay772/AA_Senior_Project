@@ -1,0 +1,12 @@
+C:\Users\Shiro\Desktop\ClassPoop\Sem10\CECS491A\AA_Senior_Project\Submissions\Milestone2\AA.PMTOGO.Registration\Loggin\bin\Debug\net6.0\AA.PMTOGO.Logger.deps.json
+C:\Users\Shiro\Desktop\ClassPoop\Sem10\CECS491A\AA_Senior_Project\Submissions\Milestone2\AA.PMTOGO.Registration\Loggin\bin\Debug\net6.0\AA.PMTOGO.Logger.dll
+C:\Users\Shiro\Desktop\ClassPoop\Sem10\CECS491A\AA_Senior_Project\Submissions\Milestone2\AA.PMTOGO.Registration\Loggin\bin\Debug\net6.0\AA.PMTOGO.Logger.pdb
+C:\Users\Shiro\Desktop\ClassPoop\Sem10\CECS491A\AA_Senior_Project\Submissions\Milestone2\AA.PMTOGO.Registration\Loggin\obj\Debug\net6.0\AA.PMTOGO.Logger.csproj.AssemblyReference.cache
+C:\Users\Shiro\Desktop\ClassPoop\Sem10\CECS491A\AA_Senior_Project\Submissions\Milestone2\AA.PMTOGO.Registration\Loggin\obj\Debug\net6.0\AA.PMTOGO.Logger.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Shiro\Desktop\ClassPoop\Sem10\CECS491A\AA_Senior_Project\Submissions\Milestone2\AA.PMTOGO.Registration\Loggin\obj\Debug\net6.0\AA.PMTOGO.Logger.AssemblyInfoInputs.cache
+C:\Users\Shiro\Desktop\ClassPoop\Sem10\CECS491A\AA_Senior_Project\Submissions\Milestone2\AA.PMTOGO.Registration\Loggin\obj\Debug\net6.0\AA.PMTOGO.Logger.AssemblyInfo.cs
+C:\Users\Shiro\Desktop\ClassPoop\Sem10\CECS491A\AA_Senior_Project\Submissions\Milestone2\AA.PMTOGO.Registration\Loggin\obj\Debug\net6.0\AA.PMTOGO.Logger.csproj.CoreCompileInputs.cache
+C:\Users\Shiro\Desktop\ClassPoop\Sem10\CECS491A\AA_Senior_Project\Submissions\Milestone2\AA.PMTOGO.Registration\Loggin\obj\Debug\net6.0\AA.PMTOGO.Logger.dll
+C:\Users\Shiro\Desktop\ClassPoop\Sem10\CECS491A\AA_Senior_Project\Submissions\Milestone2\AA.PMTOGO.Registration\Loggin\obj\Debug\net6.0\refint\AA.PMTOGO.Logger.dll
+C:\Users\Shiro\Desktop\ClassPoop\Sem10\CECS491A\AA_Senior_Project\Submissions\Milestone2\AA.PMTOGO.Registration\Loggin\obj\Debug\net6.0\AA.PMTOGO.Logger.pdb
+C:\Users\Shiro\Desktop\ClassPoop\Sem10\CECS491A\AA_Senior_Project\Submissions\Milestone2\AA.PMTOGO.Registration\Loggin\obj\Debug\net6.0\ref\AA.PMTOGO.Logger.dll
