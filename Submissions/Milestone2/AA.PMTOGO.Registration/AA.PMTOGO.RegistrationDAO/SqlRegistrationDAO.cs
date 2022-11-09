@@ -20,7 +20,7 @@ public class SqlRegistrationDAO
 		{
 			connection.Open();
 
-            string sqlQuery = "insert into Users values ( @email, @password, @dob)";
+            string sqlQuery = "insert into pmtogo_registration.Users values ( @email, @password, @dob)";
 
             var command = new SqlCommand(sqlQuery, connection);
 
