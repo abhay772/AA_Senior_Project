@@ -1,8 +1,0 @@
-{
-  "profiles": {
-    "Profile 1": {
-      "commandName": "Executable",
-      "executablePath": "D:\\Program Files (x86)\\source\\repos\\AA.PMTOGO.Registration\\AA.PMTOGO.Registration\\AA.PMTOGO.Registration.csproj"
-    }
-  }
-}
