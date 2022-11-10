@@ -979,6 +979,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
+          "AA.PMTOGO.LoggerDAO": "1.0.0",
           "AA.PMTOGO.Models": "1.0.0",
           "Microsoft.Data.SqlClient": "2.1.4",
           "System.Data.SqlClient": "4.8.5"

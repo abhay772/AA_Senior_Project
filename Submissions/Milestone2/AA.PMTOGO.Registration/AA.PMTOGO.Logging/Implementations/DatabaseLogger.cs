@@ -39,6 +39,23 @@ namespace AA.PMTOGO.Logging.Implementations
                 return result;
             }
 
+
+
+            if (message == null)
+            {
+                result.IsSuccessful = false;
+                result.ErrorMessage = "Log message is null";
+                return result;
+            }
+
+            if (!(string.Equals(Level, "Info", StringComparison.OrdinalIgnoreCase) || string.Equals(Level, "Debug", StringComparison.OrdinalIgnoreCase) ||
+                    string.Equals(Level, "Warning", StringComparison.OrdinalIgnoreCase) || string.Equals(Level, "error", StringComparison.OrdinalIgnoreCase)))
+            {
+                result.IsSuccessful = false;
+                result.ErrorMessage = "Invalid log level";
+                return result;
+            }
+
             result.IsSuccessful = false;
             result.ErrorMessage = daoResults.ErrorMessage;
 

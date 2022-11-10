@@ -24,7 +24,7 @@ public class SqlLogger : ILoggerDAO
             connection.Open();
 
 
-            string sqlQuery = "insert into PMTOGO.Logs values ( @Timestamp, @Level, @Event, @Category, @Message)";
+            string sqlQuery = "insert into pmtogo_logger.Logs values ( @Timestamp, @Level, @Event, @Category, @Message)";
             var command = new SqlCommand(sqlQuery, connection);
             
             command.Parameters.AddWithValue("@Timestamp", DateTime.Now);
@@ -52,7 +52,7 @@ public class SqlLogger : ILoggerDAO
         return result;
     }
 
-    public Task<Result> AsyncLogData(string level, string Event, string message)
+    public async Task<Result> AsyncLogData(string level, string Event, string message)
     {
         Result result = new Result();
 
@@ -70,7 +70,7 @@ public class SqlLogger : ILoggerDAO
             command.Parameters.AddWithValue("@Category", _category);
             command.Parameters.AddWithValue("@Message", message);
 
-            var rows = command.ExecuteNonQueryAsync();
+            var rows = await command.ExecuteNonQueryAsync();
             
             if (rows == 1)
             {

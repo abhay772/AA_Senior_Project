@@ -519,6 +519,20 @@
           }
         }
       },
+      "AA.PMTOGO.LoggerDAO/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "AA.PMTOGO.Models": "1.0.0",
+          "Microsoft.Data.SqlClient": "2.1.4"
+        },
+        "compile": {
+          "bin/placeholder/AA.PMTOGO.LoggerDAO.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AA.PMTOGO.LoggerDAO.dll": {}
+        }
+      },
       "AA.PMTOGO.Models/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -1498,6 +1512,11 @@
         "version.txt"
       ]
     },
+    "AA.PMTOGO.LoggerDAO/1.0.0": {
+      "type": "project",
+      "path": "../Loggin/AA.PMTOGO.LoggerDAO.csproj",
+      "msbuildProject": "../Loggin/AA.PMTOGO.LoggerDAO.csproj"
+    },
     "AA.PMTOGO.Models/1.0.0": {
       "type": "project",
       "path": "../AA.PMTOGO.Models/AA.PMTOGO.Models.csproj",
@@ -1506,6 +1525,7 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "AA.PMTOGO.LoggerDAO >= 1.0.0",
       "AA.PMTOGO.Models >= 1.0.0",
       "Microsoft.Data.SqlClient >= 2.1.4",
       "System.Data.SqlClient >= 4.8.5"
@@ -1540,6 +1560,9 @@
           "projectReferences": {
             "C:\\Users\\Shiro\\Desktop\\ClassPoop\\Sem10\\CECS491A\\AA_Senior_Project\\Submissions\\Milestone2\\AA.PMTOGO.Registration\\AA.PMTOGO.Models\\AA.PMTOGO.Models.csproj": {
               "projectPath": "C:\\Users\\Shiro\\Desktop\\ClassPoop\\Sem10\\CECS491A\\AA_Senior_Project\\Submissions\\Milestone2\\AA.PMTOGO.Registration\\AA.PMTOGO.Models\\AA.PMTOGO.Models.csproj"
+            },
+            "C:\\Users\\Shiro\\Desktop\\ClassPoop\\Sem10\\CECS491A\\AA_Senior_Project\\Submissions\\Milestone2\\AA.PMTOGO.Registration\\Loggin\\AA.PMTOGO.LoggerDAO.csproj": {
+              "projectPath": "C:\\Users\\Shiro\\Desktop\\ClassPoop\\Sem10\\CECS491A\\AA_Senior_Project\\Submissions\\Milestone2\\AA.PMTOGO.Registration\\Loggin\\AA.PMTOGO.LoggerDAO.csproj"
             }
           }
         }

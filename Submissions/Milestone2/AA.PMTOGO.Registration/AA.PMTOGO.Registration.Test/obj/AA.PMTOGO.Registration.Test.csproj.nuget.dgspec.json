@@ -234,6 +234,9 @@
             "projectReferences": {
               "C:\\Users\\Shiro\\Desktop\\ClassPoop\\Sem10\\CECS491A\\AA_Senior_Project\\Submissions\\Milestone2\\AA.PMTOGO.Registration\\AA.PMTOGO.Models\\AA.PMTOGO.Models.csproj": {
                 "projectPath": "C:\\Users\\Shiro\\Desktop\\ClassPoop\\Sem10\\CECS491A\\AA_Senior_Project\\Submissions\\Milestone2\\AA.PMTOGO.Registration\\AA.PMTOGO.Models\\AA.PMTOGO.Models.csproj"
+              },
+              "C:\\Users\\Shiro\\Desktop\\ClassPoop\\Sem10\\CECS491A\\AA_Senior_Project\\Submissions\\Milestone2\\AA.PMTOGO.Registration\\Loggin\\AA.PMTOGO.LoggerDAO.csproj": {
+                "projectPath": "C:\\Users\\Shiro\\Desktop\\ClassPoop\\Sem10\\CECS491A\\AA_Senior_Project\\Submissions\\Milestone2\\AA.PMTOGO.Registration\\Loggin\\AA.PMTOGO.LoggerDAO.csproj"
               }
             }
           }

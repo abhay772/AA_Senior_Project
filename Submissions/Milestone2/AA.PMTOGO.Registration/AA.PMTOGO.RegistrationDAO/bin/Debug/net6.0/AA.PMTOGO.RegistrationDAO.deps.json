@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v6.0": {
       "AA.PMTOGO.RegistrationDAO/1.0.0": {
         "dependencies": {
+          "AA.PMTOGO.LoggerDAO": "1.0.0",
           "AA.PMTOGO.Models": "1.0.0",
           "Microsoft.Data.SqlClient": "2.1.4",
           "System.Data.SqlClient": "4.8.5"
@@ -356,6 +357,15 @@
           }
         }
       },
+      "AA.PMTOGO.LoggerDAO/1.0.0": {
+        "dependencies": {
+          "AA.PMTOGO.Models": "1.0.0",
+          "Microsoft.Data.SqlClient": "2.1.4"
+        },
+        "runtime": {
+          "AA.PMTOGO.LoggerDAO.dll": {}
+        }
+      },
       "AA.PMTOGO.Models/1.0.0": {
         "runtime": {
           "AA.PMTOGO.Models.dll": {}
@@ -571,6 +581,11 @@
       "sha512": "sha512-CeWTdRNfRaSh0pm2gDTJFwVaXfTq6Xwv/sA887iwPTneW7oMtMlpvDIO+U60+3GWTB7Aom6oQwv5VZVUhQRdPQ==",
       "path": "system.windows.extensions/4.7.0",
       "hashPath": "system.windows.extensions.4.7.0.nupkg.sha512"
+    },
+    "AA.PMTOGO.LoggerDAO/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "AA.PMTOGO.Models/1.0.0": {
       "type": "project",
