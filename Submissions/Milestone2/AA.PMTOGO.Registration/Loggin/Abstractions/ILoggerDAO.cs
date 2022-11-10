@@ -12,6 +12,7 @@ public interface ILoggerDAO
 {
     Result LogData(string level, string Event,  string message);
 
-    Task<Result> AsyncLogData(string level, string Event,string message);
+    Task<Result> AsyncLogData(string level, string Event, string message);
+>>>>>>>>> Temporary merge branch 2
 }
 
